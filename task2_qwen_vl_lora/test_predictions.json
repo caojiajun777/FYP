@@ -1,0 +1,583 @@
+[
+  {
+    "filename": "00550.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00179.png",
+    "gold": [
+      "power"
+    ],
+    "pred": [
+      "power"
+    ],
+    "raw_output": "[\"power\"]"
+  },
+  {
+    "filename": "00724.png",
+    "gold": [
+      "power",
+      "eval_board"
+    ],
+    "pred": [
+      "power",
+      "eval_board"
+    ],
+    "raw_output": "[\"power\", \"eval_board\"]"
+  },
+  {
+    "filename": "00620.png",
+    "gold": [
+      "signal",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00048.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "579_01_01.png",
+    "gold": [
+      "power",
+      "interface"
+    ],
+    "pred": [
+      "power",
+      "eval_board"
+    ],
+    "raw_output": "[\"power\", \"eval_board\"]"
+  },
+  {
+    "filename": "00399.png",
+    "gold": [
+      "power",
+      "communication"
+    ],
+    "pred": [
+      "communication",
+      "eval_board"
+    ],
+    "raw_output": "[\"communication\", \"eval_board\"]"
+  },
+  {
+    "filename": "018_02_09.png",
+    "gold": [
+      "interface",
+      "control"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00533.png",
+    "gold": [
+      "communication",
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "communication",
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"communication\", \"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "01909.png",
+    "gold": [
+      "interface",
+      "signal"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "017_04_02.png",
+    "gold": [
+      "signal"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "015_06_01.png",
+    "gold": [
+      "interface",
+      "signal"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "362_01_01.png",
+    "gold": [
+      "interface",
+      "control",
+      "signal",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "control",
+      "signal",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"control\", \"signal\", \"eval_board\"]"
+  },
+  {
+    "filename": "019_05_01.png",
+    "gold": [
+      "interface",
+      "signal"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00123.png",
+    "gold": [
+      "control",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "053_04_09.png",
+    "gold": [
+      "interface",
+      "control"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00380.png",
+    "gold": [
+      "power",
+      "communication"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00508.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00538.png",
+    "gold": [
+      "communication",
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "communication",
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"communication\", \"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00994.png",
+    "gold": [
+      "interface",
+      "signal",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "signal",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"signal\", \"eval_board\"]"
+  },
+  {
+    "filename": "01836.png",
+    "gold": [
+      "communication",
+      "control"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "654_01_01.png",
+    "gold": [
+      "interface",
+      "control",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "control"
+    ],
+    "raw_output": "[\"interface\", \"control\"]"
+  },
+  {
+    "filename": "597_01_02.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "036_01_NESTED_27.png",
+    "gold": [
+      "control"
+    ],
+    "pred": [
+      "interface",
+      "control"
+    ],
+    "raw_output": "[\"interface\", \"control\"]"
+  },
+  {
+    "filename": "01470.png",
+    "gold": [
+      "power",
+      "signal"
+    ],
+    "pred": [
+      "power",
+      "eval_board"
+    ],
+    "raw_output": "[\"power\", \"eval_board\"]"
+  },
+  {
+    "filename": "00379.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00001.png",
+    "gold": [
+      "power",
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00196.png",
+    "gold": [
+      "power",
+      "eval_board"
+    ],
+    "pred": [
+      "power",
+      "eval_board"
+    ],
+    "raw_output": "[\"power\", \"eval_board\"]"
+  },
+  {
+    "filename": "00485.png",
+    "gold": [
+      "eval_board"
+    ],
+    "pred": [
+      "eval_board"
+    ],
+    "raw_output": "[\"eval_board\"]"
+  },
+  {
+    "filename": "047_06_06.png",
+    "gold": [
+      "interface",
+      "control"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "046_02_01.png",
+    "gold": [
+      "power",
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "power",
+      "eval_board"
+    ],
+    "raw_output": "[\"power\", \"eval_board\"]"
+  },
+  {
+    "filename": "00322.png",
+    "gold": [
+      "control",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00468.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "057_02_02.png",
+    "gold": [
+      "interface",
+      "signal"
+    ],
+    "pred": [
+      "communication",
+      "eval_board"
+    ],
+    "raw_output": "[\"communication\", \"eval_board\"]"
+  },
+  {
+    "filename": "690_01_01.png",
+    "gold": [
+      "communication",
+      "interface"
+    ],
+    "pred": [
+      "interface",
+      "signal"
+    ],
+    "raw_output": "[\"interface\", \"signal\"]"
+  },
+  {
+    "filename": "290_01_01.png",
+    "gold": [
+      "interface",
+      "control",
+      "signal"
+    ],
+    "pred": [
+      "interface",
+      "control",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"control\", \"eval_board\"]"
+  },
+  {
+    "filename": "00004.png",
+    "gold": [
+      "interface",
+      "signal",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "060_01_06.png",
+    "gold": [
+      "power"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "014_05_12.png",
+    "gold": [
+      "power",
+      "control"
+    ],
+    "pred": [
+      "control",
+      "signal"
+    ],
+    "raw_output": "[\"control\", \"signal\"]"
+  },
+  {
+    "filename": "00147.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "00236.png",
+    "gold": [
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "228_01_01.png",
+    "gold": [
+      "interface",
+      "control",
+      "signal",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "control",
+      "signal",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"control\", \"signal\", \"eval_board\"]"
+  },
+  {
+    "filename": "00175.png",
+    "gold": [
+      "control",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "01475.png",
+    "gold": [
+      "power",
+      "control"
+    ],
+    "pred": [
+      "power",
+      "eval_board"
+    ],
+    "raw_output": "[\"power\", \"eval_board\"]"
+  },
+  {
+    "filename": "326_01_02.png",
+    "gold": [
+      "power",
+      "interface",
+      "eval_board"
+    ],
+    "pred": [
+      "interface",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"eval_board\"]"
+  },
+  {
+    "filename": "593_01_01.png",
+    "gold": [
+      "interface",
+      "control",
+      "signal"
+    ],
+    "pred": [
+      "interface",
+      "control",
+      "signal",
+      "eval_board"
+    ],
+    "raw_output": "[\"interface\", \"control\", \"signal\", \"eval_board\"]"
+  },
+  {
+    "filename": "036_01_NESTED_24.png",
+    "gold": [
+      "interface",
+      "control"
+    ],
+    "pred": [
+      "interface",
+      "control"
+    ],
+    "raw_output": "[\"interface\", \"control\"]"
+  }
+]
