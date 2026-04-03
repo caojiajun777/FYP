@@ -6,4 +6,21 @@ hf_cache/
 tmp/
 temp/
 *.swp
-task2_qwen_vl_lora/resume_state.pt
+
+# Model weights (use HuggingFace Hub or Git LFS instead)
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Large zip packages
+*.zip
+
+# Raw image datasets (too large and copyright unclear)
+EDA_cls_dataset/
+EDA_cls_dataset_full/
+task2_function_prediction/
+
+# Cloud / on-premise training logs with private paths
+training.log
+training_resume.log

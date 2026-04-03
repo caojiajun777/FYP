@@ -2,11 +2,16 @@ import json
 import os
 from collections import Counter
 
-QWEN_TRAIN_JSON = "/root/autodl-tmp/qwen_train_high.json"
-VAL_JSON = "/root/autodl-tmp/gold_standard/val_split.json"
-TEST_JSON = "/root/autodl-tmp/gold_standard/test_split.json"
+# Set DATA_ROOT to the directory containing qwen_train_high.json and gold_standard/
+# e.g.  export DATA_ROOT=/path/to/FYP_repo   (Linux/Mac)
+#        $env:DATA_ROOT="D:\FYP\Classifier\paper_results\FYP_repo"  (Windows PowerShell)
+DATA_ROOT = os.environ.get("DATA_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-OUT_DIR = "/root/autodl-tmp/task2_vit_baseline"
+QWEN_TRAIN_JSON = os.path.join(DATA_ROOT, "qwen_train_high.json")
+VAL_JSON = os.path.join(DATA_ROOT, "gold_standard", "val_split.json")
+TEST_JSON = os.path.join(DATA_ROOT, "gold_standard", "test_split.json")
+
+OUT_DIR = os.path.join(DATA_ROOT, "task2_vit_baseline")
 OUT_TRAIN = os.path.join(OUT_DIR, "train_split.json")
 
 CATEGORIES = ["power", "interface", "communication", "signal", "control"]

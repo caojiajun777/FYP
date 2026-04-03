@@ -17,11 +17,16 @@ import timm
 # =========================
 # Config
 # =========================
-TRAIN_JSON = "/root/autodl-tmp/task2_vit_baseline/train_split.json"
-VAL_JSON   = "/root/autodl-tmp/gold_standard/val_split.json"
-TEST_JSON  = "/root/autodl-tmp/gold_standard/test_split.json"
+# Set DATA_ROOT to the FYP_repo directory.
+# e.g.  export DATA_ROOT=/path/to/FYP_repo   (Linux/Mac)
+#        $env:DATA_ROOT="D:\FYP\...\FYP_repo"  (Windows PowerShell)
+DATA_ROOT = os.environ.get("DATA_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-SAVE_DIR = "/root/autodl-tmp/task2_vit_baseline"
+TRAIN_JSON = os.path.join(DATA_ROOT, "task2_vit_baseline", "train_split.json")
+VAL_JSON   = os.path.join(DATA_ROOT, "gold_standard", "val_split.json")
+TEST_JSON  = os.path.join(DATA_ROOT, "gold_standard", "test_split.json")
+
+SAVE_DIR = os.path.join(DATA_ROOT, "task2_vit_baseline")
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 CATEGORIES = ["power", "interface", "communication", "signal", "control"]
@@ -51,11 +56,12 @@ def resolve_image_path(path: str) -> str:
         return path
 
     normalized = path.replace("\\\\", "/").replace("\\", "/")
+    image_root = os.environ.get("IMAGE_ROOT", DATA_ROOT)
     if "EDA_cls_dataset_full/" in normalized:
         rel_path = normalized.split("EDA_cls_dataset_full/")[1]
-        return f"/root/autodl-tmp/EDA_cls_dataset_full/{rel_path}"
+        return os.path.join(image_root, "EDA_cls_dataset_full", rel_path)
 
-    return f"/root/autodl-tmp/EDA_cls_dataset_full/jlc/{os.path.basename(normalized)}"
+    return os.path.join(image_root, "EDA_cls_dataset_full", "jlc", os.path.basename(normalized))
 
 def load_json(path: str):
     with open(path, "r", encoding="utf-8") as f:

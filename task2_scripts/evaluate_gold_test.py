@@ -10,10 +10,14 @@ from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_sc
 
 warnings.filterwarnings("ignore")
 
-TEST_DATA_PATH = "/root/autodl-tmp/gold_standard/test_split.json"
+# Set DATA_ROOT to the FYP_repo directory; LORA_ROOT to the LoRA checkpoint parent directory
+DATA_ROOT = os.environ.get("DATA_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+LORA_ROOT = os.environ.get("LORA_ROOT", os.path.join(DATA_ROOT, "lora_exports", "qwen2_5_vl_7b"))
+
+TEST_DATA_PATH = os.path.join(DATA_ROOT, "gold_standard", "test_split.json")
 BASE_MODEL = "Qwen/Qwen2.5-VL-7B-Instruct"
-CHECKPOINT = "/root/autodl-tmp/LLaMA-Factory/saves/qwen2_5_vl_7b/lora/eda_task2/checkpoint-400"
-OUTPUT_JSON = "/root/autodl-tmp/LLaMA-Factory/gold_test_predictions_ckpt400.json"
+CHECKPOINT = os.path.join(LORA_ROOT, "checkpoint-675")  # use best checkpoint
+OUTPUT_JSON = os.path.join(DATA_ROOT, "lora_exports", "qwen2_5_vl_7b", "gold_test_predictions_ckpt675.json")
 
 CATEGORIES = ["power", "interface", "communication", "signal", "control"]
 
@@ -32,11 +36,14 @@ USER_TEXT_PROMPT = (
 )
 
 def fix_image_path(old_path: str) -> str:
+    """Resolve an image path from the stored JSON to an absolute path on the current machine.
+    Set the IMAGE_ROOT environment variable to the directory containing EDA_cls_dataset_full/."""
+    image_root = os.environ.get("IMAGE_ROOT", DATA_ROOT)
     normalized = old_path.replace("\\\\", "/").replace("\\", "/")
     if "EDA_cls_dataset_full/" in normalized:
         rel_path = normalized.split("EDA_cls_dataset_full/")[1]
-        return f"/root/autodl-tmp/EDA_cls_dataset_full/{rel_path}"
-    return f"/root/autodl-tmp/EDA_cls_dataset_full/jlc/{os.path.basename(normalized)}"
+        return os.path.join(image_root, "EDA_cls_dataset_full", rel_path)
+    return os.path.join(image_root, "EDA_cls_dataset_full", "jlc", os.path.basename(normalized))
 
 def evaluate():
     from qwen_vl_utils import process_vision_info

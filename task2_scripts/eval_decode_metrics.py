@@ -1,4 +1,5 @@
 import json
+import os
 import torch
 import warnings
 from tqdm import tqdm
@@ -9,11 +10,15 @@ from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_sc
 
 warnings.filterwarnings('ignore')
 
-VAL_DATA_PATH = "/root/autodl-tmp/LLaMA-Factory/data/eda_task2_high.json"
+# Set DATA_ROOT to the FYP_repo directory; LORA_ROOT to the directory containing checkpoint-400 / checkpoint-675
+DATA_ROOT = os.environ.get("DATA_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+LORA_ROOT = os.environ.get("LORA_ROOT", os.path.join(DATA_ROOT, "lora_exports", "qwen2_5_vl_7b"))
+
+VAL_DATA_PATH = os.path.join(DATA_ROOT, "qwen_train_high.json")
 BASE_MODEL = "Qwen/Qwen2.5-VL-7B-Instruct"
 CHECKPOINTS = [
-    "/root/autodl-tmp/LLaMA-Factory/saves/qwen2_5_vl_7b/lora/eda_task2/checkpoint-400",
-    "/root/autodl-tmp/LLaMA-Factory/saves/qwen2_5_vl_7b/lora/eda_task2/checkpoint-675"
+    os.path.join(LORA_ROOT, "checkpoint-400"),
+    os.path.join(LORA_ROOT, "checkpoint-675"),
 ]
 
 CATEGORIES = ["power", "interface", "communication", "signal", "control"]
