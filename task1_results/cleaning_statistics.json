@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-19T20:49:44.577699",
+  "before": {
+    "train": 2930,
+    "val": 0,
+    "test": 317
+  },
+  "after": {
+    "train": 2913,
+    "val": 0,
+    "test": 317
+  },
+  "removed": {
+    "cross_split_leaks": 0,
+    "internal_duplicates": 17,
+    "total": 17
+  },
+  "reduction_percentage": {
+    "train": 0.5802047781569966,
+    "val": 0,
+    "test": 0.0,
+    "total": 0.5235602094240838
+  }
+}
