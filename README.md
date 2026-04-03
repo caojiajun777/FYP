@@ -1,7 +1,36 @@
-# PCB Schematic Repository Classification — Dissertation Artefacts
+<div align="center">
 
-This repository contains all artefacts accompanying the dissertation:  
-**"EDA Provenance Identification and Schematic-Level Function Tagging for Mixed-Source PCB Schematic Repositories"**
+# EDA Schematic Repository Classification
+### Dissertation Artefacts — Final Year Project
+
+**EDA Provenance Identification and Schematic-Level Function Tagging for Mixed-Source PCB Schematic Repositories**
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+<br/>
+
+**Author:** Cao Jiajun (曹佳竣)  
+**Programme:** BEng Electrical & Electronic Engineering  
+**Institution:** University of Nottingham Ningbo China (UNNC)  
+**Academic Year:** 2025–2026
+
+</div>
+
+---
+
+## Overview
+
+This repository contains all code, result artefacts, and evaluation evidence for the dissertation.
+The project addresses two complementary problems in mixed-source PCB schematic repositories:
+
+| Task | Problem | Method | Key Result |
+|---|---|---|---|
+| **Task 1** | EDA Tool Provenance (5-class classification) | ViT-B/16 fine-tuning | **Acc 99.05%**, Macro-F1 99.15% |
+| **Task 2** | Schematic Function Tagging (5-label multi-label) | Qwen2.5-VL-7B LoRA | **EM 0.5672**, Micro-F1 0.8566 |
 
 ---
 
@@ -265,13 +294,387 @@ python task2_scripts/evaluate_gold_test.py
 
 ---
 
+## Dependencies
+
+| Component | Package |
+|---|---|
+| Deep learning | `torch >= 2.0`, `torchvision` |
+| Vision backbone (Task 2 baseline) | `timm` |
+| LLM fine-tuning | [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) |
+| Metrics | `scikit-learn` |
+| Visualisation | `matplotlib`, `seaborn`, `opencv-python` |
+| Image hashing (dedup) | `imagehash` |
+
+---
+
 ## Citation
 
+If you use this work, please cite the dissertation as:
+
+```bibtex
+@thesis{cao2026eda,
+  title       = {EDA Provenance Identification and Schematic-Level Function Tagging
+                 for Mixed-Source PCB Schematic Repositories},
+  author      = {Cao, Jiajun},
+  year        = {2026},
+  school      = {University of Nottingham Ningbo China},
+  type        = {BEng Final Year Project Dissertation},
+  department  = {Department of Electrical and Electronic Engineering}
+}
 ```
-[Dissertation citation placeholder — to be filled after submission]
+
+### References
+
+Key works cited in this dissertation:
+
+<details>
+<summary><strong>AI for EDA / Background</strong></summary>
+
+```bibtex
+@article{xu2024ainativeeda,
+  title         = {The Dawn of AI-Native EDA: Opportunities and Challenges of Large Circuit Models},
+  author        = {Chen, Lei and Chen, Yiqi and Chu, Zhufei and Fang, Wenji and Ho, Tsung-Yi and Huang, Ru and Huang, Yu and others},
+  year          = {2024},
+  journal       = {arXiv preprint arXiv:2403.07257},
+  eprint        = {2403.07257},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AR}
+}
+
+@article{llm4eda2024,
+  title         = {LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation},
+  author        = {Zhong, Ruizhe and Du, Xingbo and Kai, Shixiong and Tang, Zhentao and Xu, Siyuan and Zhen, Hui-Ling and Hao, Jianye and Xu, Qiang and Yuan, Mingxuan and Yan, Junchi},
+  year          = {2024},
+  journal       = {arXiv preprint arXiv:2401.12224},
+  eprint        = {2401.12224},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AR}
+}
+
+@article{pan2025llmedasurvey,
+  title   = {A Survey of Research in Large Language Models for Electronic Design Automation},
+  author  = {Pan, Jingyu and Zhou, Guanglei and Chang, Chen-Chia and Jacobson, Isaac and Hu, Jiang and Chen, Yiran},
+  year    = {2025},
+  journal = {ACM Transactions on Design Automation of Electronic Systems},
+  doi     = {10.1145/3715324}
+}
+
+@article{nsf2026aieda,
+  title         = {Report for NSF Workshop on AI for Electronic Design Automation},
+  author        = {Chen, Deming and Ganesh, Vijay and Li, Weikai and Lin, Yingyan Celine and Liu, Yong and Mitra, Subhasish and Pan, David Z. and Puri, Ruchir and Cong, Jason and Sun, Yizhou},
+  year          = {2026},
+  journal       = {arXiv preprint arXiv:2601.14541},
+  eprint        = {2601.14541},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
+}
 ```
+
+</details>
+
+<details>
+<summary><strong>Document & Visual Language Models</strong></summary>
+
+```bibtex
+@inproceedings{xu2019layoutlm,
+  title     = {LayoutLM: Pre-training of Text and Layout for Document Image Understanding},
+  author    = {Xu, Yiheng and Li, Minghao and Cui, Lei and Huang, Shaohan and Wei, Furu and Zhou, Ming},
+  booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  year      = {2020},
+  pages     = {1192--1200},
+  doi       = {10.1145/3394486.3403172}
+}
+
+@inproceedings{kim2021donut,
+  title     = {OCR-Free Document Understanding Transformer},
+  author    = {Kim, Geewook and Hong, Teakgyu and Yim, Moonbin and Nam, Jeongyeon and Park, Jinyoung and Yim, Jinyeong and Hwang, Wonseok and Yun, Sangdoo and Han, Dongyoon and Park, Seunghyun},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2022},
+  pages     = {498--517},
+  doi       = {10.1007/978-3-031-19815-1_29}
+}
+
+@inproceedings{lee2023pix2struct,
+  title     = {Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding},
+  author    = {Lee, Kenton and Joshi, Mandar and Turc, Iulia and Hu, Hexiang and Liu, Fangyu and Eisenschlos, Julian and Khandelwal, Urvashi and Shaw, Peter and Chang, Ming-Wei and Toutanova, Kristina},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML)},
+  year      = {2023},
+  pages     = {20493--20508}
+}
+
+@inproceedings{wang2024docllm,
+  title     = {DocLLM: A Layout-Aware Generative Language Model for Multimodal Document Understanding},
+  author    = {Wang, Dongsheng and Raman, Natraj and Sibue, Mathieu and Ma, Zhiqiang and Babkin, Petr and Kaur, Simerjot and Pei, Yulong and Nourbakhsh, Armineh and Liu, Xiaomo},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2024},
+  pages     = {8554--8570},
+  publisher = {Association for Computational Linguistics}
+}
+
+@inproceedings{luo2024layoutllm,
+  title     = {LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding},
+  author    = {Luo, Chuwei and Shen, Yufan and Zhu, Zhaoqing and Zheng, Qi and Yu, Zhi and Yao, Cong},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2024},
+  pages     = {15604--15614}
+}
+
+@inproceedings{nacson2025docvlm,
+  title     = {DocVLM: Make Your VLM an Efficient Reader},
+  author    = {Nacson, Mor Shpigel and Aberdam, Aviad and Ganz, Roy and Ben Avraham, Elad and Golts, Alona and Kittenplon, Yair and Mazor, Shai and Litman, Ron},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2025},
+  pages     = {29005--29015}
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Vision Backbone Architectures</strong></summary>
+
+```bibtex
+@inproceedings{he2016resnet,
+  title     = {Deep Residual Learning for Image Recognition},
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2016},
+  pages     = {770--778},
+  doi       = {10.1109/CVPR.2016.90}
+}
+
+@inproceedings{dosovitskiy2021vit,
+  title     = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author    = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2021}
+}
+
+@inproceedings{liu2022convnext,
+  title     = {A ConvNet for the 2020s},
+  author    = {Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph and Darrell, Trevor and Xie, Saining},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2022}
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Parameter-Efficient Fine-Tuning & Training Techniques</strong></summary>
+
+```bibtex
+@inproceedings{hu2022lora,
+  title     = {LoRA: Low-Rank Adaptation of Large Language Models},
+  author    = {Hu, Edward J. and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2022}
+}
+
+@inproceedings{szegedy2016rethinking,
+  title     = {Rethinking the Inception Architecture for Computer Vision},
+  author    = {Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jonathon and Wojna, Zbigniew},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2016}
+}
+
+@inproceedings{zhang2018mixup,
+  title     = {mixup: Beyond Empirical Risk Minimization},
+  author    = {Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N. and Lopez-Paz, David},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2018}
+}
+
+@inproceedings{yun2019cutmix,
+  title     = {CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features},
+  author    = {Yun, Sangdoo and Han, Dongyoon and Oh, Seong Joon and Chun, Sanghyuk and Choe, Junsuk and Yoo, Youngjoon},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year      = {2019}
+}
+
+@inproceedings{loshchilov2019adamw,
+  title     = {Decoupled Weight Decay Regularization},
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2019}
+}
+
+@inproceedings{loshchilov2017sgdr,
+  title     = {{SGDR}: Stochastic Gradient Descent with Warm Restarts},
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2017}
+}
+
+@article{hinton2015kd,
+  title   = {Distilling the Knowledge in a Neural Network},
+  author  = {Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  journal = {arXiv preprint arXiv:1503.02531},
+  year    = {2015}
+}
+
+@inproceedings{xie2020noisystudent,
+  title     = {Self-Training with Noisy Student Improves ImageNet Classification},
+  author    = {Xie, Qizhe and Luong, Minh-Thang and Hovy, Eduard and Le, Quoc V.},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2020}
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Data Integrity & Evaluation Methodology</strong></summary>
+
+```bibtex
+@article{geirhos2020shortcut,
+  title   = {Shortcut Learning in Deep Neural Networks},
+  author  = {Geirhos, Robert and Jacobsen, J{\"o}rn-Henrik and Michaelis, Claudio and Zemel, Richard and Brendel, Wieland and Bethge, Matthias and Wichmann, Felix A.},
+  journal = {Nature Machine Intelligence},
+  year    = {2020},
+  volume  = {2},
+  number  = {11},
+  pages   = {665--673},
+  doi     = {10.1038/s42256-020-00257-z}
+}
+
+@article{barz2020cifair,
+  title   = {Do We Train on Test Data? Purging CIFAR of Near-Duplicates},
+  author  = {Barz, Bj{\"o}rn and Denzler, Joachim},
+  journal = {Journal of Imaging},
+  year    = {2020},
+  volume  = {6},
+  number  = {6},
+  pages   = {41},
+  doi     = {10.3390/jimaging6060041}
+}
+
+@article{sasse2025leakage,
+  title   = {Overview of Leakage Scenarios in Supervised Machine Learning},
+  author  = {Sasse, Leonard and Nicolaisen-Sobesky, Eliana and Dukart, Juergen and Eickhoff, Simon B. and G{\"o}tz, Michael and Hamdan, Sami and Komeyer, Vera and Kulkarni, Abhijit and Lahnakoski, Juha M. and Love, Bradley C. and Raimondo, Federico and Patil, Kaustubh R.},
+  journal = {Journal of Big Data},
+  year    = {2025},
+  volume  = {12},
+  number  = {1},
+  pages   = {135},
+  doi     = {10.1186/s40537-025-01193-8}
+}
+
+@inproceedings{kohavi1995cv,
+  title     = {A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection},
+  author    = {Kohavi, Ron},
+  booktitle = {Proceedings of the Fourteenth International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {1995}
+}
+
+@article{powers2011eval,
+  title   = {Evaluation: From Precision, Recall and {F}-Measure to {ROC}, Informedness, Markedness and Correlation},
+  author  = {Powers, David M. W.},
+  journal = {Journal of Machine Learning Technologies},
+  volume  = {2},
+  number  = {1},
+  pages   = {37--63},
+  year    = {2011}
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Interpretability & Visualisation</strong></summary>
+
+```bibtex
+@inproceedings{selvaraju2017gradcam,
+  title     = {Grad-{CAM}: Visual Explanations from Deep Networks via Gradient-Based Localization},
+  author    = {Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+  year      = {2017}
+}
+
+@inproceedings{zeiler2014visualizing,
+  title     = {Visualizing and Understanding Convolutional Networks},
+  author    = {Zeiler, Matthew D. and Fergus, Rob},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2014}
+}
+
+@inproceedings{abnar2020attentionflow,
+  title     = {Quantifying Attention Flow in Transformers},
+  author    = {Abnar, Samira and Zuidema, Willem},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year      = {2020}
+}
+
+@article{maaten2008tsne,
+  title   = {Visualizing Data using t-{SNE}},
+  author  = {van der Maaten, Laurens and Hinton, Geoffrey},
+  journal = {Journal of Machine Learning Research (JMLR)},
+  volume  = {9},
+  pages   = {2579--2605},
+  year    = {2008}
+}
+
+@book{jolliffe2002pca,
+  title     = {Principal Component Analysis},
+  author    = {Jolliffe, I. T.},
+  publisher = {Springer},
+  edition   = {2},
+  year      = {2002}
+}
+```
+
+</details>
+
+<details>
+<summary><strong>OCR & Text Detection (Related Methods)</strong></summary>
+
+```bibtex
+@inproceedings{zhou2017east,
+  title     = {{EAST}: An Efficient and Accurate Scene Text Detector},
+  author    = {Zhou, Xinyu and Yao, Cong and Wen, He and Wang, Yuzhi and Zhou, Shangbang and He, Weiran and Liang, Jiajun},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2017}
+}
+
+@article{shi2017crnn,
+  title   = {An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition},
+  author  = {Shi, Baoguang and Bai, Xiang and Yao, Cong},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  volume  = {39},
+  number  = {11},
+  pages   = {2298--2304},
+  year    = {2017}
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Retrieval-Augmented Generation</strong></summary>
+
+```bibtex
+@inproceedings{lewis2020rag,
+  title     = {Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks},
+  author    = {Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim and Riedel, Sebastian and Kiela, Douwe},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2020}
+}
+```
+
+</details>
+
+---
 
 ## License
 
-Scripts and result files: MIT License.  
-Raw schematic images: sourced from public GitHub repositories; see individual dataset README for provenance and copyright notes.
+Scripts and result files are released under the **MIT License**.  
+Raw schematic images are sourced from public GitHub repositories; see individual dataset documentation for provenance and copyright notes.
+
+---
+
+<div align="center">
+
+*University of Nottingham Ningbo China · Department of Electrical and Electronic Engineering*  
+*Final Year Project 2025–2026 · Cao Jiajun (曹佳竣)*
+
+</div>
