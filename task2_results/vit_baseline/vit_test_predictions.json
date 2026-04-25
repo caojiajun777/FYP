@@ -1,0 +1,2379 @@
+[
+  {
+    "filename": "677_02_01.png",
+    "gold_labels": [
+      "power",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.9744978547096252,
+      "interface": 0.5071909427642822,
+      "communication": 0.015917621552944183,
+      "signal": 0.04374927282333374,
+      "control": 0.21774759888648987
+    }
+  },
+  {
+    "filename": "357_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.999882698059082,
+      "interface": 0.9999847412109375,
+      "communication": 0.00015087207430042326,
+      "signal": 0.9855138063430786,
+      "control": 0.11372116208076477
+    }
+  },
+  {
+    "filename": "00391.png",
+    "gold_labels": [
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.0029249913059175014,
+      "interface": 0.9966287016868591,
+      "communication": 0.9999462366104126,
+      "signal": 3.4086329833371565e-05,
+      "control": 0.9992793202400208
+    }
+  },
+  {
+    "filename": "036_07_NESTED_04.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.900115966796875,
+      "interface": 0.5589177012443542,
+      "communication": 0.1191544160246849,
+      "signal": 0.03177425637841225,
+      "control": 0.33454108238220215
+    }
+  },
+  {
+    "filename": "02193.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.9985384941101074,
+      "interface": 0.9978795051574707,
+      "communication": 0.2908809185028076,
+      "signal": 0.012066829018294811,
+      "control": 0.03819214552640915
+    }
+  },
+  {
+    "filename": "02300.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9999388456344604,
+      "interface": 0.19805443286895752,
+      "communication": 0.04753180965781212,
+      "signal": 0.0006517920410260558,
+      "control": 0.8027927875518799
+    }
+  },
+  {
+    "filename": "00261.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9507394433021545,
+      "interface": 0.9787014722824097,
+      "communication": 0.6199150085449219,
+      "signal": 0.04203593730926514,
+      "control": 0.03378899022936821
+    }
+  },
+  {
+    "filename": "02047.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9997174143791199,
+      "interface": 0.03843139111995697,
+      "communication": 0.002334389602765441,
+      "signal": 0.007125647738575935,
+      "control": 0.0050141578540205956
+    }
+  },
+  {
+    "filename": "566_03_01.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.10293439775705338,
+      "interface": 0.9080024361610413,
+      "communication": 0.11358229070901871,
+      "signal": 0.014757676050066948,
+      "control": 0.03016982413828373
+    }
+  },
+  {
+    "filename": "147_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9998644590377808,
+      "interface": 0.9999938011169434,
+      "communication": 0.00027773689362220466,
+      "signal": 0.11015981435775757,
+      "control": 0.9974492192268372
+    }
+  },
+  {
+    "filename": "00233.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.6601219773292542,
+      "interface": 0.9986069798469543,
+      "communication": 0.7391130328178406,
+      "signal": 0.0646926760673523,
+      "control": 0.03784332051873207
+    }
+  },
+  {
+    "filename": "00834.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.13604776561260223,
+      "interface": 0.7301205992698669,
+      "communication": 0.3138187527656555,
+      "signal": 0.4751044809818268,
+      "control": 0.004576817620545626
+    }
+  },
+  {
+    "filename": "00012.png",
+    "gold_labels": [
+      "power",
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9029890298843384,
+      "interface": 0.991978645324707,
+      "communication": 0.5388867259025574,
+      "signal": 0.00035108046722598374,
+      "control": 6.664689863100648e-05
+    }
+  },
+  {
+    "filename": "01391.png",
+    "gold_labels": [
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.808449923992157,
+      "interface": 0.5983975529670715,
+      "communication": 0.6319162845611572,
+      "signal": 0.005936069879680872,
+      "control": 0.007147203199565411
+    }
+  },
+  {
+    "filename": "00045.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.5144926905632019,
+      "interface": 0.9357542991638184,
+      "communication": 0.23486822843551636,
+      "signal": 0.07294163107872009,
+      "control": 0.057482581585645676
+    }
+  },
+  {
+    "filename": "01028.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.2114184945821762,
+      "interface": 0.9679120182991028,
+      "communication": 0.2230190634727478,
+      "signal": 0.29194244742393494,
+      "control": 0.012380425818264484
+    }
+  },
+  {
+    "filename": "00616.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.418741911649704,
+      "interface": 0.7398496866226196,
+      "communication": 0.6232969164848328,
+      "signal": 0.003303897799924016,
+      "control": 0.10217736661434174
+    }
+  },
+  {
+    "filename": "00286.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.21255619823932648,
+      "interface": 0.6775373816490173,
+      "communication": 0.8908362984657288,
+      "signal": 0.016416262835264206,
+      "control": 0.001780946389771998
+    }
+  },
+  {
+    "filename": "00708.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.08696140348911285,
+      "interface": 0.6892641186714172,
+      "communication": 0.7065936326980591,
+      "signal": 0.2019614428281784,
+      "control": 0.00668135704472661
+    }
+  },
+  {
+    "filename": "017_06_13.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.4806935489177704,
+      "interface": 0.032717905938625336,
+      "communication": 0.7837176322937012,
+      "signal": 0.06134235858917236,
+      "control": 0.7872924208641052
+    }
+  },
+  {
+    "filename": "002_03_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.7080845236778259,
+      "interface": 0.006066793575882912,
+      "communication": 0.8648208975791931,
+      "signal": 0.4576345682144165,
+      "control": 0.8435027599334717
+    }
+  },
+  {
+    "filename": "262_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.9992534518241882,
+      "interface": 0.9999359846115112,
+      "communication": 2.257989217469003e-05,
+      "signal": 0.9964021444320679,
+      "control": 0.27787384390830994
+    }
+  },
+  {
+    "filename": "00745.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.00012918746506329626,
+      "interface": 0.9252680540084839,
+      "communication": 0.6139719486236572,
+      "signal": 0.002599321538582444,
+      "control": 0.13034997880458832
+    }
+  },
+  {
+    "filename": "036_01_NESTED_127.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.8348148465156555,
+      "interface": 0.6122316718101501,
+      "communication": 0.1448807269334793,
+      "signal": 0.04481804370880127,
+      "control": 0.2100057154893875
+    }
+  },
+  {
+    "filename": "00221.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.2172628492116928,
+      "interface": 0.9927976727485657,
+      "communication": 0.529949426651001,
+      "signal": 0.16043370962142944,
+      "control": 0.01713043451309204
+    }
+  },
+  {
+    "filename": "677_01_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.8843964338302612,
+      "interface": 0.2769796848297119,
+      "communication": 0.08454250544309616,
+      "signal": 0.03198619559407234,
+      "control": 0.12545637786388397
+    }
+  },
+  {
+    "filename": "014_05_07.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.21964266896247864,
+      "interface": 0.0858897790312767,
+      "communication": 0.3302011787891388,
+      "signal": 0.5527287125587463,
+      "control": 0.39132755994796753
+    }
+  },
+  {
+    "filename": "201_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9999775886535645,
+      "interface": 0.9999977350234985,
+      "communication": 0.00013921728532295674,
+      "signal": 0.9967812299728394,
+      "control": 0.8870910406112671
+    }
+  },
+  {
+    "filename": "676_01_01.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.22519610822200775,
+      "interface": 0.9493661522865295,
+      "communication": 0.0048918891698122025,
+      "signal": 2.1484682292793877e-05,
+      "control": 0.0004535586922429502
+    }
+  },
+  {
+    "filename": "00808.png",
+    "gold_labels": [
+      "communication",
+      "signal"
+    ],
+    "pred_labels": [
+      "communication",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.03276323154568672,
+      "interface": 0.02966580167412758,
+      "communication": 0.8041021227836609,
+      "signal": 0.9768489003181458,
+      "control": 0.0002533927618060261
+    }
+  },
+  {
+    "filename": "00052.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9989400506019592,
+      "interface": 0.0022180427331477404,
+      "communication": 0.013095583766698837,
+      "signal": 0.009618128649890423,
+      "control": 0.007930356077849865
+    }
+  },
+  {
+    "filename": "00704.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.7870473265647888,
+      "interface": 0.053184423595666885,
+      "communication": 0.11268310248851776,
+      "signal": 0.31289318203926086,
+      "control": 0.00023572752252221107
+    }
+  },
+  {
+    "filename": "043_05_01.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9781376123428345,
+      "interface": 0.1495804637670517,
+      "communication": 0.08212313801050186,
+      "signal": 0.19973567128181458,
+      "control": 0.07725635915994644
+    }
+  },
+  {
+    "filename": "01542.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9997711777687073,
+      "interface": 0.0057990532368421555,
+      "communication": 0.0029117700178176165,
+      "signal": 0.007873636670410633,
+      "control": 0.005103114061057568
+    }
+  },
+  {
+    "filename": "01741.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.6415358781814575,
+      "interface": 0.252255380153656,
+      "communication": 0.5630499124526978,
+      "signal": 0.15294471383094788,
+      "control": 0.9058915972709656
+    }
+  },
+  {
+    "filename": "187_01_02.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.941636860370636,
+      "interface": 0.2947320342063904,
+      "communication": 0.17102651298046112,
+      "signal": 0.02646240033209324,
+      "control": 0.0001333662075921893
+    }
+  },
+  {
+    "filename": "01560.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.8569059371948242,
+      "interface": 0.38546139001846313,
+      "communication": 0.4194343388080597,
+      "signal": 0.0679459273815155,
+      "control": 0.3186107873916626
+    }
+  },
+  {
+    "filename": "013_01_04.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.870217502117157,
+      "interface": 0.08682063966989517,
+      "communication": 0.059978634119033813,
+      "signal": 0.21872884035110474,
+      "control": 0.0038666939362883568
+    }
+  },
+  {
+    "filename": "00328.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.08734878897666931,
+      "interface": 0.8185818195343018,
+      "communication": 0.5960208177566528,
+      "signal": 0.1652115434408188,
+      "control": 0.007624305784702301
+    }
+  },
+  {
+    "filename": "566_02_01.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9396263360977173,
+      "interface": 0.972098708152771,
+      "communication": 0.48399701714515686,
+      "signal": 0.000478215457405895,
+      "control": 0.8449447154998779
+    }
+  },
+  {
+    "filename": "01265.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9990873336791992,
+      "interface": 0.028308525681495667,
+      "communication": 0.014176529832184315,
+      "signal": 0.01561643835157156,
+      "control": 0.004812720697373152
+    }
+  },
+  {
+    "filename": "666_01_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.8026699423789978,
+      "interface": 0.3326301574707031,
+      "communication": 0.11216653138399124,
+      "signal": 0.006492266897112131,
+      "control": 0.7379894256591797
+    }
+  },
+  {
+    "filename": "02086.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9996298551559448,
+      "interface": 0.006667408626526594,
+      "communication": 0.0029442133381962776,
+      "signal": 0.014870981685817242,
+      "control": 0.0019402694888412952
+    }
+  },
+  {
+    "filename": "036_01_NESTED_87.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.8860235810279846,
+      "interface": 0.17374847829341888,
+      "communication": 0.6049989461898804,
+      "signal": 0.001962982816621661,
+      "control": 0.9540376663208008
+    }
+  },
+  {
+    "filename": "00593.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9998100399971008,
+      "interface": 0.051177654415369034,
+      "communication": 0.044776834547519684,
+      "signal": 0.031692251563072205,
+      "control": 0.009962054900825024
+    }
+  },
+  {
+    "filename": "661_02_01.png",
+    "gold_labels": [
+      "interface",
+      "control"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.19906774163246155,
+      "interface": 0.9833869338035583,
+      "communication": 0.3460063934326172,
+      "signal": 0.0003025940677616745,
+      "control": 0.07855544239282608
+    }
+  },
+  {
+    "filename": "02279.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.745345950126648,
+      "interface": 0.14112956821918488,
+      "communication": 0.05628547444939613,
+      "signal": 0.7398282289505005,
+      "control": 0.0060860225930809975
+    }
+  },
+  {
+    "filename": "107_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9999915361404419,
+      "interface": 0.9999992847442627,
+      "communication": 6.130353722255677e-05,
+      "signal": 0.9939070343971252,
+      "control": 0.926802396774292
+    }
+  },
+  {
+    "filename": "00310.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.19768446683883667,
+      "interface": 0.01633499376475811,
+      "communication": 0.771271288394928,
+      "signal": 0.15598347783088684,
+      "control": 0.00017914579075295478
+    }
+  },
+  {
+    "filename": "02312.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.0844690278172493,
+      "interface": 0.7233113646507263,
+      "communication": 0.1898166984319687,
+      "signal": 0.03597816452383995,
+      "control": 0.043536655604839325
+    }
+  },
+  {
+    "filename": "036_01_NESTED_146.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9980826377868652,
+      "interface": 0.40327855944633484,
+      "communication": 0.3189031481742859,
+      "signal": 0.004575442522764206,
+      "control": 0.7561867237091064
+    }
+  },
+  {
+    "filename": "00225.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9899320602416992,
+      "interface": 0.008082730695605278,
+      "communication": 0.6186422109603882,
+      "signal": 0.02268175408244133,
+      "control": 0.0005077962996438146
+    }
+  },
+  {
+    "filename": "00807.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.010666823014616966,
+      "interface": 0.7379568219184875,
+      "communication": 0.7927897572517395,
+      "signal": 0.8658460378646851,
+      "control": 0.0009403330623172224
+    }
+  },
+  {
+    "filename": "00010.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9978014826774597,
+      "interface": 0.004637619946151972,
+      "communication": 0.30635616183280945,
+      "signal": 0.0022728031035512686,
+      "control": 0.0006805231678299606
+    }
+  },
+  {
+    "filename": "01631.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9997696280479431,
+      "interface": 0.006028974428772926,
+      "communication": 0.0030815484933555126,
+      "signal": 0.011980448849499226,
+      "control": 0.0017167910700663924
+    }
+  },
+  {
+    "filename": "00049.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.9247974157333374,
+      "interface": 0.666076123714447,
+      "communication": 0.0246726106852293,
+      "signal": 0.08408509194850922,
+      "control": 0.07283614575862885
+    }
+  },
+  {
+    "filename": "00690.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9987508058547974,
+      "interface": 0.015359469689428806,
+      "communication": 0.1516534686088562,
+      "signal": 0.004122625105082989,
+      "control": 0.003128611948341131
+    }
+  },
+  {
+    "filename": "661_04_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.974290132522583,
+      "interface": 0.8507311940193176,
+      "communication": 0.015402068383991718,
+      "signal": 0.07096456736326218,
+      "control": 0.05184983089566231
+    }
+  },
+  {
+    "filename": "572_01_01.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.8268722891807556,
+      "interface": 0.6705828309059143,
+      "communication": 0.07005723565816879,
+      "signal": 0.09683641791343689,
+      "control": 0.2088927924633026
+    }
+  },
+  {
+    "filename": "00926.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.027594776824116707,
+      "interface": 0.9918255805969238,
+      "communication": 0.04573015123605728,
+      "signal": 0.9921903014183044,
+      "control": 0.006170004140585661
+    }
+  },
+  {
+    "filename": "474_03_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.8706458806991577,
+      "interface": 0.6644082069396973,
+      "communication": 0.049475956708192825,
+      "signal": 0.16917884349822998,
+      "control": 0.030458694323897362
+    }
+  },
+  {
+    "filename": "021_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.9999915361404419,
+      "interface": 0.9999985694885254,
+      "communication": 0.00011362376972101629,
+      "signal": 0.9873934984207153,
+      "control": 0.4864996373653412
+    }
+  },
+  {
+    "filename": "02171.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9998093247413635,
+      "interface": 0.00992006529122591,
+      "communication": 0.0034878135193139315,
+      "signal": 0.001353894709609449,
+      "control": 0.004877745173871517
+    }
+  },
+  {
+    "filename": "00818.png",
+    "gold_labels": [
+      "communication",
+      "signal"
+    ],
+    "pred_labels": [
+      "communication",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.0519559346139431,
+      "interface": 0.17736518383026123,
+      "communication": 0.9017584323883057,
+      "signal": 0.8222822546958923,
+      "control": 0.0006713818293064833
+    }
+  },
+  {
+    "filename": "00723.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9823922514915466,
+      "interface": 0.014310881495475769,
+      "communication": 0.58344566822052,
+      "signal": 0.12097383290529251,
+      "control": 0.0012691094307228923
+    }
+  },
+  {
+    "filename": "00451.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.7320830821990967,
+      "interface": 0.03363781049847603,
+      "communication": 0.866035521030426,
+      "signal": 0.00043591720168478787,
+      "control": 0.007057567592710257
+    }
+  },
+  {
+    "filename": "00327.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.0001786338834790513,
+      "interface": 0.26012179255485535,
+      "communication": 0.9893075823783875,
+      "signal": 0.00215150392614305,
+      "control": 0.00011628923675743863
+    }
+  },
+  {
+    "filename": "036_01_NESTED_118.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.5146978497505188,
+      "interface": 0.8015432953834534,
+      "communication": 0.026204241439700127,
+      "signal": 0.010855977423489094,
+      "control": 0.1823529154062271
+    }
+  },
+  {
+    "filename": "00369.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9628757238388062,
+      "interface": 0.012471017427742481,
+      "communication": 0.9982576966285706,
+      "signal": 0.0020026955753564835,
+      "control": 0.0005797244375571609
+    }
+  },
+  {
+    "filename": "01810.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9916691780090332,
+      "interface": 0.11250867694616318,
+      "communication": 0.0509425513446331,
+      "signal": 0.15338365733623505,
+      "control": 0.021230410784482956
+    }
+  },
+  {
+    "filename": "443_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.840522289276123,
+      "interface": 0.05887891352176666,
+      "communication": 0.9707719087600708,
+      "signal": 0.004932142794132233,
+      "control": 0.043450675904750824
+    }
+  },
+  {
+    "filename": "356_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.9968276619911194,
+      "interface": 0.9999830722808838,
+      "communication": 0.000494903651997447,
+      "signal": 0.16744472086429596,
+      "control": 0.07142909616231918
+    }
+  },
+  {
+    "filename": "049_08_01.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9155765175819397,
+      "interface": 0.03370223939418793,
+      "communication": 0.43014755845069885,
+      "signal": 0.041232600808143616,
+      "control": 0.11122017353773117
+    }
+  },
+  {
+    "filename": "00366.png",
+    "gold_labels": [
+      "power"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.8344705700874329,
+      "interface": 0.2686246335506439,
+      "communication": 0.22830823063850403,
+      "signal": 0.42701220512390137,
+      "control": 0.012756401672959328
+    }
+  },
+  {
+    "filename": "254_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9998718500137329,
+      "interface": 0.9999964237213135,
+      "communication": 3.901027230313048e-05,
+      "signal": 0.9824802279472351,
+      "control": 0.6829506754875183
+    }
+  },
+  {
+    "filename": "00492.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.0473874993622303,
+      "interface": 0.9542492032051086,
+      "communication": 0.9758486747741699,
+      "signal": 0.0001890905696200207,
+      "control": 0.009098848327994347
+    }
+  },
+  {
+    "filename": "00014.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.0976548045873642,
+      "interface": 0.6417381763458252,
+      "communication": 0.14406493306159973,
+      "signal": 0.004944169893860817,
+      "control": 0.019965846091508865
+    }
+  },
+  {
+    "filename": "00538.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.7166308760643005,
+      "interface": 0.04311224818229675,
+      "communication": 0.9932699799537659,
+      "signal": 0.008081871084868908,
+      "control": 0.0025298765394836664
+    }
+  },
+  {
+    "filename": "585_01_01.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.8067244291305542,
+      "interface": 0.9521668553352356,
+      "communication": 0.04013757035136223,
+      "signal": 0.010284398682415485,
+      "control": 0.32150599360466003
+    }
+  },
+  {
+    "filename": "01834.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [],
+    "probabilities": {
+      "power": 0.3649205267429352,
+      "interface": 0.0021766836289316416,
+      "communication": 0.04562842845916748,
+      "signal": 0.09121915698051453,
+      "control": 0.20250387489795685
+    }
+  },
+  {
+    "filename": "396_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.9999969005584717,
+      "interface": 0.9999977350234985,
+      "communication": 0.003038217779248953,
+      "signal": 0.8114225268363953,
+      "control": 0.24323661625385284
+    }
+  },
+  {
+    "filename": "017_04_01.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.8615090250968933,
+      "interface": 0.0241054967045784,
+      "communication": 0.06092724949121475,
+      "signal": 0.3422869145870209,
+      "control": 0.013192277401685715
+    }
+  },
+  {
+    "filename": "00395.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.7032526135444641,
+      "interface": 0.03259844332933426,
+      "communication": 0.9994872808456421,
+      "signal": 0.0038018079940229654,
+      "control": 0.00016253108333330601
+    }
+  },
+  {
+    "filename": "014_03_06.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.6657194495201111,
+      "interface": 0.0678829476237297,
+      "communication": 0.24818088114261627,
+      "signal": 0.25314682722091675,
+      "control": 0.053897906094789505
+    }
+  },
+  {
+    "filename": "01505.png",
+    "gold_labels": [
+      "communication",
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9910792708396912,
+      "interface": 0.019857021048665047,
+      "communication": 0.04940330609679222,
+      "signal": 0.3524974584579468,
+      "control": 0.01762823760509491
+    }
+  },
+  {
+    "filename": "193_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9998593330383301,
+      "interface": 0.9999902248382568,
+      "communication": 0.0023219978902488947,
+      "signal": 0.025988005101680756,
+      "control": 0.9952219128608704
+    }
+  },
+  {
+    "filename": "00060.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.6772333383560181,
+      "interface": 0.8730750679969788,
+      "communication": 0.1829669028520584,
+      "signal": 0.06380756199359894,
+      "control": 0.07173153012990952
+    }
+  },
+  {
+    "filename": "014_03_10.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.002514249412342906,
+      "interface": 0.005789557471871376,
+      "communication": 0.9971207976341248,
+      "signal": 0.1835574209690094,
+      "control": 0.005745477508753538
+    }
+  },
+  {
+    "filename": "00359.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9794816374778748,
+      "interface": 0.010725803673267365,
+      "communication": 0.9742194414138794,
+      "signal": 0.008432415314018726,
+      "control": 0.00043303705751895905
+    }
+  },
+  {
+    "filename": "102_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9998712539672852,
+      "interface": 0.9999954700469971,
+      "communication": 0.00017979092081077397,
+      "signal": 0.9775124192237854,
+      "control": 0.9290308356285095
+    }
+  },
+  {
+    "filename": "00588.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.7118679285049438,
+      "interface": 0.03531086444854736,
+      "communication": 0.38496077060699463,
+      "signal": 0.33291539549827576,
+      "control": 0.14820507168769836
+    }
+  },
+  {
+    "filename": "01407.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9935012459754944,
+      "interface": 0.0051386067643761635,
+      "communication": 0.7562393546104431,
+      "signal": 0.009293424896895885,
+      "control": 0.0019553254824131727
+    }
+  },
+  {
+    "filename": "00697.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.0005237100413069129,
+      "interface": 0.933565616607666,
+      "communication": 0.01884809322655201,
+      "signal": 0.09734585136175156,
+      "control": 0.0007170529570430517
+    }
+  },
+  {
+    "filename": "530_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9817618131637573,
+      "interface": 0.8936510682106018,
+      "communication": 0.10868023335933685,
+      "signal": 0.06276527792215347,
+      "control": 0.5110849142074585
+    }
+  },
+  {
+    "filename": "01946.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9738659858703613,
+      "interface": 0.006578013766556978,
+      "communication": 0.021070333197712898,
+      "signal": 0.41939231753349304,
+      "control": 0.0011861099628731608
+    }
+  },
+  {
+    "filename": "026_01_04.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "pred_labels": [
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.14368946850299835,
+      "interface": 0.05110574886202812,
+      "communication": 0.05801405757665634,
+      "signal": 0.560903012752533,
+      "control": 0.011455175466835499
+    }
+  },
+  {
+    "filename": "038_01_01.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.03499850630760193,
+      "interface": 0.16974520683288574,
+      "communication": 0.8382666110992432,
+      "signal": 0.13225653767585754,
+      "control": 0.004071454051882029
+    }
+  },
+  {
+    "filename": "541_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9946117401123047,
+      "interface": 0.02682737074792385,
+      "communication": 0.6522891521453857,
+      "signal": 0.02582346647977829,
+      "control": 0.3113272190093994
+    }
+  },
+  {
+    "filename": "01202.png",
+    "gold_labels": [
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.6855739951133728,
+      "interface": 0.09261107444763184,
+      "communication": 0.9955680966377258,
+      "signal": 0.003328428603708744,
+      "control": 0.00036718693445436656
+    }
+  },
+  {
+    "filename": "241_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9998010993003845,
+      "interface": 0.9999994039535522,
+      "communication": 5.574302122113295e-05,
+      "signal": 0.06989745050668716,
+      "control": 0.9876067042350769
+    }
+  },
+  {
+    "filename": "411_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9999396800994873,
+      "interface": 0.9999510049819946,
+      "communication": 4.353355325292796e-05,
+      "signal": 0.6892128586769104,
+      "control": 0.950130045413971
+    }
+  },
+  {
+    "filename": "121_02_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.9988924860954285,
+      "interface": 0.9999998807907104,
+      "communication": 2.4646398742333986e-05,
+      "signal": 0.06718385219573975,
+      "control": 0.012742524035274982
+    }
+  },
+  {
+    "filename": "02225.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9969231486320496,
+      "interface": 0.03291431814432144,
+      "communication": 0.007430665194988251,
+      "signal": 0.07589226961135864,
+      "control": 0.004186899401247501
+    }
+  },
+  {
+    "filename": "100_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9999899864196777,
+      "interface": 0.9999998807907104,
+      "communication": 0.00011831408482976258,
+      "signal": 0.805651068687439,
+      "control": 0.9905684590339661
+    }
+  },
+  {
+    "filename": "074_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.9989151954650879,
+      "interface": 0.9999974966049194,
+      "communication": 0.000479106733109802,
+      "signal": 0.6224768161773682,
+      "control": 0.020753689110279083
+    }
+  },
+  {
+    "filename": "360_01_01.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.9697591662406921,
+      "interface": 0.9999508857727051,
+      "communication": 0.0005520520498976111,
+      "signal": 0.06513052433729172,
+      "control": 0.0016504271188750863
+    }
+  },
+  {
+    "filename": "016_15_02.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9975581169128418,
+      "interface": 0.013277459889650345,
+      "communication": 0.9996670484542847,
+      "signal": 0.0014159205602481961,
+      "control": 0.8519802093505859
+    }
+  },
+  {
+    "filename": "038_03_01.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.10552167147397995,
+      "interface": 0.0017521873814985156,
+      "communication": 0.10238174349069595,
+      "signal": 0.8377988338470459,
+      "control": 0.004407524596899748
+    }
+  },
+  {
+    "filename": "00974.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.44907641410827637,
+      "interface": 0.9980037808418274,
+      "communication": 0.0012740307720378041,
+      "signal": 0.91241455078125,
+      "control": 0.12399084866046906
+    }
+  },
+  {
+    "filename": "01216.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9095886945724487,
+      "interface": 0.9301905632019043,
+      "communication": 0.8412243127822876,
+      "signal": 0.00036644036299549043,
+      "control": 0.0024888240732252598
+    }
+  },
+  {
+    "filename": "00460.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.5838794708251953,
+      "interface": 0.3597472608089447,
+      "communication": 0.12727117538452148,
+      "signal": 0.0024566196370869875,
+      "control": 0.11795708537101746
+    }
+  },
+  {
+    "filename": "01752.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.8548224568367004,
+      "interface": 0.05577075108885765,
+      "communication": 0.001517189317382872,
+      "signal": 0.4509023427963257,
+      "control": 0.002351917792111635
+    }
+  },
+  {
+    "filename": "00270.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9782248735427856,
+      "interface": 0.47911521792411804,
+      "communication": 0.7024059891700745,
+      "signal": 0.021322377026081085,
+      "control": 0.013248535804450512
+    }
+  },
+  {
+    "filename": "076_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.9999442100524902,
+      "interface": 0.9999951124191284,
+      "communication": 0.0006662672385573387,
+      "signal": 0.9311999082565308,
+      "control": 0.2037966251373291
+    }
+  },
+  {
+    "filename": "028_03_05.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "pred_labels": [
+      "power",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.8079530596733093,
+      "interface": 0.03849901631474495,
+      "communication": 0.009056992828845978,
+      "signal": 0.5313742160797119,
+      "control": 0.0031871204264461994
+    }
+  },
+  {
+    "filename": "01515.png",
+    "gold_labels": [
+      "power",
+      "control"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.9999289512634277,
+      "interface": 0.010306700132787228,
+      "communication": 0.02884170413017273,
+      "signal": 0.00010720757563831285,
+      "control": 0.024353932589292526
+    }
+  },
+  {
+    "filename": "491_01_01.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power"
+    ],
+    "probabilities": {
+      "power": 0.975350558757782,
+      "interface": 0.19274559617042542,
+      "communication": 0.018209462985396385,
+      "signal": 0.06498279422521591,
+      "control": 0.0667652115225792
+    }
+  },
+  {
+    "filename": "00076.png",
+    "gold_labels": [
+      "interface",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.8280349969863892,
+      "interface": 0.8815650343894958,
+      "communication": 0.8306463956832886,
+      "signal": 0.003592194290831685,
+      "control": 0.8370174169540405
+    }
+  },
+  {
+    "filename": "047_05_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.7238184809684753,
+      "interface": 0.9923684000968933,
+      "communication": 0.6319725513458252,
+      "signal": 0.028262529522180557,
+      "control": 9.282663086196408e-05
+    }
+  },
+  {
+    "filename": "00340.png",
+    "gold_labels": [
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.7943922877311707,
+      "interface": 0.8316571712493896,
+      "communication": 0.9866365790367126,
+      "signal": 0.009863940067589283,
+      "control": 0.33575454354286194
+    }
+  },
+  {
+    "filename": "00123.png",
+    "gold_labels": [
+      "power",
+      "control"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.04267778620123863,
+      "interface": 0.9971219897270203,
+      "communication": 0.9916319251060486,
+      "signal": 0.00022830566740594804,
+      "control": 0.9549534320831299
+    }
+  },
+  {
+    "filename": "036_01_NESTED_59.png",
+    "gold_labels": [
+      "power",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9879976511001587,
+      "interface": 0.4189020097255707,
+      "communication": 0.04947969317436218,
+      "signal": 0.007612880785018206,
+      "control": 0.5381122827529907
+    }
+  },
+  {
+    "filename": "051_01_01.png",
+    "gold_labels": [
+      "interface",
+      "control"
+    ],
+    "pred_labels": [
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.026772934943437576,
+      "interface": 0.054807018488645554,
+      "communication": 0.7006326913833618,
+      "signal": 0.04619353264570236,
+      "control": 0.2398788332939148
+    }
+  },
+  {
+    "filename": "00671.png",
+    "gold_labels": [
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.3211252689361572,
+      "interface": 0.9982411861419678,
+      "communication": 0.10088837146759033,
+      "signal": 0.00029013262246735394,
+      "control": 0.15863333642482758
+    }
+  },
+  {
+    "filename": "00143.png",
+    "gold_labels": [
+      "interface",
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "interface",
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.06865715980529785,
+      "interface": 0.7561559677124023,
+      "communication": 0.9358734488487244,
+      "signal": 0.0002394863113295287,
+      "control": 0.9956114888191223
+    }
+  },
+  {
+    "filename": "071_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.9999724626541138,
+      "interface": 0.9999995231628418,
+      "communication": 9.526199573883787e-05,
+      "signal": 0.9776389002799988,
+      "control": 0.9283619523048401
+    }
+  },
+  {
+    "filename": "153_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.999945878982544,
+      "interface": 0.999984622001648,
+      "communication": 9.364574361825362e-05,
+      "signal": 0.9890211224555969,
+      "control": 0.4094848036766052
+    }
+  },
+  {
+    "filename": "314_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "signal"
+    ],
+    "probabilities": {
+      "power": 0.999984860420227,
+      "interface": 0.9999996423721313,
+      "communication": 1.4271656255004928e-05,
+      "signal": 0.7434809803962708,
+      "control": 0.25774022936820984
+    }
+  },
+  {
+    "filename": "015_01_01.png",
+    "gold_labels": [
+      "power",
+      "control"
+    ],
+    "pred_labels": [
+      "communication",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.21203066408634186,
+      "interface": 0.09446452558040619,
+      "communication": 0.91921067237854,
+      "signal": 0.16627149283885956,
+      "control": 0.8322246670722961
+    }
+  },
+  {
+    "filename": "036_03_NESTED_17.png",
+    "gold_labels": [
+      "communication",
+      "control"
+    ],
+    "pred_labels": [
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.17679856717586517,
+      "interface": 0.05761915072798729,
+      "communication": 0.7253938317298889,
+      "signal": 0.0053941188380122185,
+      "control": 0.06194460764527321
+    }
+  },
+  {
+    "filename": "052_01_02.png",
+    "gold_labels": [
+      "power",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "communication"
+    ],
+    "probabilities": {
+      "power": 0.9986716508865356,
+      "interface": 0.10933566838502884,
+      "communication": 0.9853531718254089,
+      "signal": 0.005663492251187563,
+      "control": 0.40289121866226196
+    }
+  },
+  {
+    "filename": "013_01_01.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "signal",
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface",
+      "control"
+    ],
+    "probabilities": {
+      "power": 0.8943166732788086,
+      "interface": 0.9992790818214417,
+      "communication": 0.44868004322052,
+      "signal": 0.4090503454208374,
+      "control": 0.8815085291862488
+    }
+  },
+  {
+    "filename": "638_01_01.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [
+      "power",
+      "interface"
+    ],
+    "probabilities": {
+      "power": 0.7932111620903015,
+      "interface": 0.8844122886657715,
+      "communication": 0.07361115515232086,
+      "signal": 0.00033409762545488775,
+      "control": 0.24965691566467285
+    }
+  },
+  {
+    "filename": "060_01_16.png",
+    "gold_labels": [
+      "control"
+    ],
+    "pred_labels": [],
+    "probabilities": {
+      "power": 0.10010337829589844,
+      "interface": 0.0006731202593073249,
+      "communication": 0.41751226782798767,
+      "signal": 0.3232582211494446,
+      "control": 0.31818586587905884
+    }
+  }
+]

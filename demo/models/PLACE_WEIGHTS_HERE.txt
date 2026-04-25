@@ -1,0 +1,10 @@
+Place model weights in this directory:
+
+1. classifier_best.pt          — Task 1 ViT-B/16 weights
+2. best_adapter_fixed/         — Task 2 LoRA adapter folder
+   ├── adapter_config.json
+   ├── adapter_model.safetensors
+   └── (other config files)
+
+These files are too large for the submission package.
+See SUBMISSION_README.md for details.

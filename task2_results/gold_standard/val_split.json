@@ -1,0 +1,1467 @@
+[
+  {
+    "filename": "02244.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02244.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "LMH5401芯片及其周边的稳压电路",
+      "TPS62850RHTR芯片及其输入输出滤波电容",
+      "明确的DC-DC变换拓扑结构（电感、开关管）",
+      "多个电源输入端子和完整的电源分配路径"
+    ]
+  },
+  {
+    "filename": "02242.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02242.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中央有明确的DC-DC转换器（VPS2700GLLR）及其输入输出滤波电路",
+      "存在明确的电源管理芯片（TPS65251）及其周边电路",
+      "标注有“+3.3V POWER RAIL”的电源分配网络",
+      "可见用于电源保护和滤波的TVS二极管、电感、电容等元件"
+    ]
+  },
+  {
+    "filename": "01552.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01552.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的2V8 LDO和2V5 LDO电路，用于电压调节。",
+      "PERIPHERAL 3V3部分包含TPS62087芯片及其输入输出滤波电路。",
+      "DDR3L VREF部分包含TPS73633芯片及其反馈网络。",
+      "SD CARD VOLTAGE SELECT部分有明确的电压选择电路。"
+    ]
+  },
+  {
+    "filename": "377_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\377_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在 DC-DC 芯片(XD7950)及其输入输出滤波电路，明确为电源管理。",
+      "存在 USB 接口电路(USB1)，作为电源和数据接口。",
+      "存在按键(SW1, SW2, SW3)和 LED 指示灯(LED1, LED_PC14, LED_PC15)，属于人机交互接口。",
+      "存在 TFT 显示屏接口(TFT1)，属于显示接口。"
+    ]
+  },
+  {
+    "filename": "481_02_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\481_02_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在 VIN 输入端子 CN3",
+      "包含整流二极管 D2 和滤波电容 C1、C2",
+      "有稳压芯片 U18.2 (LM1117-3.3)",
+      "可见 LDO 输出 +3.3V 和 +5V"
+    ]
+  },
+  {
+    "filename": "02200.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02200.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中包含明确的开关电源拓扑，如电感 (L19, L32)、开关管 (TP109) 和反馈网络。",
+      "使用了专用的电压调节芯片 (VL56560EVN, VPS80305GPR, VPS80270DCOR)，这些是典型的稳压器。",
+      "电路清晰地展示了从输入 VIN 到输出 3.3V 的完整电源变换路径。",
+      "包含输入 EMI 滤波（C141, C142）和输出滤波（C147, C148）电容，符合电源管理特征。"
+    ]
+  },
+  {
+    "filename": "011_03_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\011_03_01.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "多个 WS2812B LED 驱动芯片，其 DIN 和 DOUT 引脚串联连接",
+      "LED_IN 和 LED_OUT 网络标示，表明存在 LED 输出接口",
+      "电路中包含一个按键（TOUCH）和一个 LED 指示灯（LED_IN）",
+      "电源输入 VCC 和 GND 连接到所有 LED 芯片"
+    ]
+  },
+  {
+    "filename": "01675.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01675.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中央和右侧包含明确的开关电源拓扑，包括电感、开关管（MOSFET）和二极管。",
+      "电路中可见反馈网络，用于调节输出电压。",
+      "输入端有EMI滤波电容（如C30, C31），符合电源输入处理特征。",
+      "明确标注了输出电压范围 'Vout2 = 30V to 56V'，表明这是一个电源变换电路。"
+    ]
+  },
+  {
+    "filename": "572_01_05.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\572_01_05.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "包含 +48V POE 输入电路",
+      "有 SY8502FCC POE 接口芯片及其相关电路",
+      "包含 DC-DC 转换器 U22 (EA306SCQBR)",
+      "有多个稳压/滤波电路，如 C97、C102等"
+    ]
+  },
+  {
+    "filename": "281_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\281_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC降压和稳压功能",
+      "按键、LED指示灯、TFT屏幕驱动等接口电路清晰可见",
+      "PWM输出电路明确属于接口功能",
+      "电源滤波电容和整流桥明确属于电源功能"
+    ]
+  },
+  {
+    "filename": "472_03_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\472_03_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "包含TPS5430DDAR型号的DC-DC降压电路，有明确的输入VIN、输出VOUT1/VOUT2路径",
+      "电路中包含电感L1、开关管Q1、二极管D2等开关电源拓扑元件",
+      "有反馈网络(R19, VR2)和输出滤波电容(C7)等稳压电路特征",
+      "存在电源输入端子(VBAT, SW3)及LED指示灯(LEDS)"
+    ]
+  },
+  {
+    "filename": "02329.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02329.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面顶部有明确的电源输入VIN和稳压电路(XC6222D311MRG)",
+      "包含LDO稳压器及其输入输出滤波电容",
+      "有明确的电源管理芯片XC6222D311MRG",
+      "标注了电源规格(1.7V x 150mA = 255mW)"
+    ]
+  },
+  {
+    "filename": "00259.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00259.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中心有明确的电源管理芯片（如 U1D）及其输入输出路径",
+      "存在多个去耦电容和滤波电容，连接在电源网络上",
+      "有明确的稳压/变换电路结构，包括反馈网络",
+      "VIN 输入端子和多个电源输出网络（如 VOUTDOCC、VOUTDOCSOC）清晰可见"
+    ]
+  },
+  {
+    "filename": "463_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\463_01_01.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的电源管理电路，包含DC-DC降压、LDO稳压及滤波",
+      "显示3.3V电压调节路径",
+      "包含保险丝和TVS管等电源保护元件",
+      "有完整的电源输入到输出的变换与分配路径"
+    ]
+  },
+  {
+    "filename": "007_01_06.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\007_01_06.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "TPS63030DSK芯片作为稳压器",
+      "VIN输入、VOUT输出明确的电源变换路径",
+      "输入端有C17、C18电容进行滤波",
+      "输出端有R17、R18电阻与C20、C21电容构成反馈和滤波网络"
+    ]
+  },
+  {
+    "filename": "01120.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01120.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的电源输入VIN及相关的整流、滤波和稳压电路",
+      "包含LDO U605 (TLV431A)及其反馈网络，用于电压调节",
+      "有AC-CURE滤波电路，属于电源输入EMI防护",
+      "存在多个去耦电容（如C2019, C2018）连接到电源网络"
+    ]
+  },
+  {
+    "filename": "02260.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02260.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "包含TPS65251电源管理芯片及其输入输出电路",
+      "存在明确的电池充电/放电管理路径",
+      "有DC-DC升压电路（如3.3V转5V）",
+      "包含EMI滤波和整流二极管"
+    ]
+  },
+  {
+    "filename": "00568.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00568.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的电源输入与输出电路，包括电池输入和多路电压输出（5V、3.3V）",
+      "包含整流桥、滤波电容及稳压电路",
+      "有保险丝、TVS管等电源保护元件",
+      "显示了完整的电源管理路径，从输入到各模块供电"
+    ]
+  },
+  {
+    "filename": "098_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\098_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Type-C电源输入电路明确显示USB供电路径及滤波电容",
+      "负压产生电路包含BOOST升压芯片和相关反馈网络",
+      "按键控制电路包含KEY1-KEY3按键及其上拉电阻",
+      "LED指示电路包含LED1-LED3及其限流电阻"
+    ]
+  },
+  {
+    "filename": "00266.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00266.png",
+    "gold_labels": [
+      "power",
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U.EFR32DG2 Power RF SoC 芯片及其供电电路，包含稳压和滤波功能。",
+      "Debug/Programming 接口（DBUG_USB, DBUG_RESET 等）明确为通信功能。",
+      "USER_BUTTONS 和 BREAKOUT(16.3) 等按键、跳线及连接器属于人机与外设接口。"
+    ]
+  },
+  {
+    "filename": "00372.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\orcad\\00372.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "包含3V3稳压器电路（LDO）及其输入输出滤波电容，明确为电源功能。",
+      "包含USB2.0 PHY芯片（USB2422），并有D+、D-差分信号线连接，明确为通信功能。",
+      "页面底部有3V3稳压器的完整电路，包括输入滤波、输出滤波和反馈网络。",
+      "USB接口部分清晰显示了USB数据信号路径，符合通信定义。"
+    ]
+  },
+  {
+    "filename": "029_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\029_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC降压稳压器（MSK12C02）及其输入输出滤波电容，属于电源功能。",
+      "按键控制电路和LED指示电路明确属于人机交互接口。",
+      "负压产生电路明确显示Buck-Boost变换器（U2），用于生成负电压，属于电源功能。",
+      "M3铜柱接口和五向开关接口明确属于外设或人机交互接口。"
+    ]
+  },
+  {
+    "filename": "00529.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00529.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的 DC-DC 转换器电路 (U14)",
+      "USB 数据链路电路 (USB2.0 PHY)",
+      "电源输入滤波与保护电路",
+      "USB 接口及其相关信号路径"
+    ]
+  },
+  {
+    "filename": "01200.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01200.png",
+    "gold_labels": [
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中心为SLG59M1746C芯片，其VIN和VOUT引脚明确指向电源输入和输出",
+      "芯片VIN端连接有C8（1pF）电容，用于输入滤波",
+      "芯片VOUT端连接有C6（10µF）电容，用于输出滤波",
+      "存在明确的电源输入（VIN）、输出（VOUT）路径"
+    ]
+  },
+  {
+    "filename": "687_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\687_01_01.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "TYPEC-IN 部分明确画出了 USB Type-C 接口及其内部的 D+、D- 数据引脚，表明存在 USB 数据通信功能。",
+      "USB-HUB 部分包含完整的 USB 集线器芯片（CH334R）及其相关的数据收发端口（DM/DP），是典型的 USB 数据通信电路。",
+      "LED1 指示灯作为状态输出，属于人机交互接口。",
+      "TYPEC-IN 和 USB-HUB 的整体设计表明这是一个以 USB 通信和接口功能为核心的电路部分。"
+    ]
+  },
+  {
+    "filename": "01219.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01219.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Std RGMII/MII Connector I/F 电路，包含 TX/RX 数据信号和控制信号，符合以太网通信标准。",
+      "Curiosity Connector I/F 电路，包含调试接口（如 SWD、UART）和 GPIO 引出，用于开发板的调试与外设连接。",
+      "LCD Connector 电路，明确为 LCD 显示接口，属于人机交互接口。",
+      "MAC ID & EEPROM 电路，包含 I2C 总线接口，用于存储 MAC 地址和配置数据，属于通信范畴。"
+    ]
+  },
+  {
+    "filename": "036_01_NESTED_144.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\036_01_NESTED_144.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在 MAX232 芯片及其相关电路，明确用于 RS232 通信。",
+      "存在 AP7365-3.3WG-3 稳压器，明确用于电源调节。",
+      "存在时钟振荡器 (LFSPXO020733) 及其相关电路，属于电源管理范畴。",
+      "存在多个电源输入/输出连接器和去耦电容，支持电源功能。"
+    ]
+  },
+  {
+    "filename": "00849.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00849.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Voltage Regulation 部分包含 LDO 稳压电路 U1，用于提供 1.8V 电压。",
+      "DC-DC Converter 部分包含 PMH2401 芯片，实现 VIN 到 VOUT 的电压转换。",
+      "I2C Connections 部分展示了 SDA 和 SCL 数据线，明确表示 I2C 通信功能。",
+      "Sensor 部分的 MAX30101EFQ 芯片及其相关电路，以及多个跳线（如 Clear Jumper），属于接口功能。"
+    ]
+  },
+  {
+    "filename": "00556.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00556.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面包含 UCS2114 功率开关芯片，其电路结构明确用于电源管理。",
+      "Upstream Type C Port 部分电路中包含 USB3 信号线的布局，表明存在 USB 数据通信功能。",
+      "功率开关芯片（如 UCS2114）连接有输入输出滤波电容和保护元件，构成完整的电源路径。",
+      "USB Type-C 接口电路中包含 CC1/CC2 引脚，这是 USB-PD 协议通信的关键引脚。"
+    ]
+  },
+  {
+    "filename": "00753.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00753.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "SMD Header 和 PTH Header 提供了物理接口",
+      "LED 指示灯电路",
+      "Mode Select 跳线 (JP8) 提供了模式选择功能"
+    ]
+  },
+  {
+    "filename": "359_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\359_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的电池管理电路 (U5, BT1) 和电源输入部分 (U2, U3)",
+      "包含按键控制电路 (KEY1-KEY3)",
+      "包含LED指示电路 (LED1-LED4)",
+      "包含M3铜柱接口"
+    ]
+  },
+  {
+    "filename": "036_01_NESTED_29.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\036_01_NESTED_29.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "AP7365-33WG-7 LDO稳压器及其输入输出滤波电路",
+      "Pin_Header连接器，用于外部接口连接",
+      "多个芯片的电源引脚（如GND、VCC）直接连接到电源网络",
+      "明确的3.3V和5V电源网络"
+    ]
+  },
+  {
+    "filename": "330_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\330_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U27660芯片及其周边电路（BOOST电感、二极管、电容）明确构成升压电源电路",
+      "USB接口电路（USB1）作为电源输入，连接至负压产生电路",
+      "KEY1-KEY3按键电路和LED1-LED2指示灯电路属于典型的接口功能",
+      "TP10-TP13测试点/跳线电路也属于接口范畴"
+    ]
+  },
+  {
+    "filename": "268_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\268_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC降压和稳压功能",
+      "按键控制电路和LED指示电路属于典型的人机交互接口",
+      "负压产生电路明确显示Buck/Boost变换功能",
+      "1.8寸TFT屏驱动电路属于显示接口"
+    ]
+  },
+  {
+    "filename": "00631.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00631.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "LAN8840芯片作为以太网PHY/MAC，明确属于通信功能。",
+      "1.1V/2.5V/3.3V Regulators模块，明确属于电源管理功能。",
+      "LAN8840芯片的RGMII、nRESET、SMI接口，是典型的以太网通信相关电路。",
+      "Straps & LEDs模块，虽然属于接口，但在此上下文中更偏向于与通信状态相关的指示功能。"
+    ]
+  },
+  {
+    "filename": "00620.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00620.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "多个标有 'SWITCH_ROTOR_1X10KIT' 的旋转开关电路",
+      "明确的拨码开关或模式选择功能",
+      "用于电阻箱设置的输入接口",
+      "无其他功能电路证据"
+    ]
+  },
+  {
+    "filename": "01393.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01393.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "LIN总线收发器(THA021)及其相关电路，明确属于通信功能。",
+      "LDO稳压器(CS3, CS4)及输入输出滤波电容，构成电源管理电路。",
+      "VIN和VDD_HV_IO_MAIN等电源网络连接到稳压/变换电路。",
+      "LIN总线接口(P2)及相关保护元件(R46, D10, BAS40)，属于通信接口电路。"
+    ]
+  },
+  {
+    "filename": "00781.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00781.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的 I2C 总线网络 (SDA/SCL)",
+      "I2C 设备芯片 (SI7021)",
+      "I2C 地址信息 (0x40/0x41)",
+      "上拉电阻连接到 SDA/SCL"
+    ]
+  },
+  {
+    "filename": "01041.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\01041.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "ACS37800芯片及其周边电路，用于电流/电压采样与调理",
+      "LED指示灯电路，属于人机交互接口",
+      "I2C上拉电阻电路，用于通信总线",
+      "多个连接器（如QUICK_RIGHT、QUICK_LEFT），提供外设接口"
+    ]
+  },
+  {
+    "filename": "01565.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01565.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "User Button 模块包含按键输入电路",
+      "Status LED 模块包含LED指示灯驱动电路",
+      "Power Button 模块包含电源开关电路"
+    ]
+  },
+  {
+    "filename": "01840.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01840.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在两个独立的温度传感器电路",
+      "每个传感器包含一个ADT7410芯片",
+      "传感器连接到I2C总线（SCL, SDA）",
+      "明确标注为“TEMP SENSOR”"
+    ]
+  },
+  {
+    "filename": "028_01_02.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\028_01_02.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "TL072 运算放大器构成信号调理链路",
+      "R1、R2、R12 等电阻与电容构成 RC 滤波网络",
+      "J1 输入端子连接至运放输入端",
+      "J5 输出端子从运放输出引出"
+    ]
+  },
+  {
+    "filename": "289_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\289_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Type-C电源输入电路（USB1）明确显示电源变换与稳压功能",
+      "模拟前端信号采集电路（U4、TL072等运放）明确用于信号调理",
+      "按键控制电路（KEY1-KEY3）和LED指示电路（LED1-LED3）明确为人机交互接口"
+    ]
+  },
+  {
+    "filename": "494_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\494_01_01.png",
+    "gold_labels": [
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "多个拨动开关 (SW1-SW7) 的电路",
+      "LED 指示灯 (LED1) 的驱动电路",
+      "测试点 (TP5-TP8) 的连接",
+      "复位按钮 (HOME) 和启动按钮 (START) 的电路"
+    ]
+  },
+  {
+    "filename": "02206.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02206.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面包含明确的电源输入、滤波和保护电路（如保险丝、TVS二极管）",
+      "存在电流/电压检测电路，属于信号调理功能",
+      "包含按键（1b. Threshold Detection: Binary Voltage）和复位电路（Reset），属于接口功能"
+    ]
+  },
+  {
+    "filename": "02208.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\02208.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Ground fault detection circuit with Y15Y5000PVR chips and associated comparators",
+      "Binary Voltage circuit with Y15Y4000PVR chips and associated comparators",
+      "LED indicators labeled 'Green' for GFD_OK and OPT_OK status",
+      "TP13, TP14 test points and other interface elements"
+    ]
+  },
+  {
+    "filename": "026_01_08.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\026_01_08.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在 USB 接口 (J6)",
+      "有 USB 数据线 (D+、D-)",
+      "包含 USB 收发器芯片 (如 FB120R)",
+      "明确标注 'GUSB-FS_D_N_Conn' 和 'GUSB-FS_D_P_Conn'"
+    ]
+  },
+  {
+    "filename": "370_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\370_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC Buck变换器（U2）和负压产生电路，属于电源功能。",
+      "模拟前端处理电路中包含运放(TL072P)、滤波电容(C10, C7等)和电阻(R4, R5等)，构成信号调理链路。",
+      "按键控制电路和LED指示电路明确属于人机交互接口功能。"
+    ]
+  },
+  {
+    "filename": "00737.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00737.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U1 (FT232RL-BASICSSOP) is a USB-UART bridge, indicating communication functionality.",
+      "Presence of TX/RX lines and UART signals (TXD, RXD) connected to U1.",
+      "LED indicators (RXLED, TXLED) are present, which are typical interface elements for communication status.",
+      "BUZZER connection indicates an interface element for user feedback."
+    ]
+  },
+  {
+    "filename": "034_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\034_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示了电源输入、整流和稳压功能",
+      "模拟前端处理器电路包含ADC采样和电压调节，属于信号调理",
+      "负压产生电路明确用于生成负电压，是电源管理的一部分",
+      "LCD驱动电路和LED指示灯属于人机交互接口"
+    ]
+  },
+  {
+    "filename": "00866.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00866.png",
+    "gold_labels": [
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "5V Boost电路，包含电感L2、开关管、二极管和反馈网络，明确为电源稳压电路。",
+      "Garmin LIDAR Lite模块的VIN输入端，表明其为外部电源输入接口。",
+      "多个连接器（如J1, J2, J3）的引脚定义中包含SCL、SDA、VCC、GND等，表明它们是用于外设或人机交互的接口。",
+      "Power LED电路，包含限流电阻和LED，明确为指示灯接口。"
+    ]
+  },
+  {
+    "filename": "01620.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01620.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的 USB HOST 和 USB OTG 接口电路",
+      "包含 USB PHY 或相关接口芯片",
+      "标注有 D+/D-、VBUS 等 USB 数据信号网络",
+      "显示了 USB 连接器的完整接口电路"
+    ]
+  },
+  {
+    "filename": "01996.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01996.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "UART-ANALOG SWITCH 页面包含 UART 和 CAN 的信号切换电路，明确属于通信功能。",
+      "SOP & MUX CONTROL 页面中的 S1.2 跳线开关（LVDS、LIN、CAN 等）和 MUX TABLE 中的模式选择开关，属于接口功能。",
+      "ANALOG MUX - SPI/12C 页面显示了 SPI 总线相关的模拟多路复用器电路，属于通信功能。",
+      "CONTROL TABLE 和 MUX TABLE 提供了硬件模式选择开关，是典型的接口功能。"
+    ]
+  },
+  {
+    "filename": "428_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\428_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "type-电源输入电路（USB供电）",
+      "负压产生电路（包含升压芯片和电感）",
+      "模拟前端信号输入采集电路（含运放、ADC）",
+      "按键控制电路和LED指示电路"
+    ]
+  },
+  {
+    "filename": "140_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\140_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC降压和稳压功能",
+      "模拟前端处理电路包含运放、滤波器，用于信号调理",
+      "按键控制电路和LED指示电路属于人机交互接口"
+    ]
+  },
+  {
+    "filename": "01894.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01894.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的以太网通信接口（RGMII_TX, RGMII_RX）",
+      "页面底部有多个GPIO引脚，部分标注为按键/LED功能（如GPI0_7, GPI0_6）",
+      "右上角有测试点TP24，通常用于调试或信号采集，但本页主要体现通信功能",
+      "存在USB相关的测试点J13 (+3V3, GND)，属于接口范畴"
+    ]
+  },
+  {
+    "filename": "424_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\424_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "负压产生电路 (U2, XD7550) 明确显示 Buck/Boost 稳压拓扑",
+      "模拟前端信号采集电路 (TL072IP, TL072IP) 明确为信号调理路径",
+      "按键控制电路 (KEY1-PB15, KEY2-PB14, KEY3-PB15) 和 LED 指示电路 (LED1-PC14, LED2-PC15) 明确为人机交互接口"
+    ]
+  },
+  {
+    "filename": "00900.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00900.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "LDO U14 提供 3V3 稳压输出，属于电源功能。",
+      "Level Translator 芯片 U13 及其相关电路用于信号电平转换，属于通信接口功能。",
+      "USB 接口 (D+, D-) 连接到 Level Translator，表明存在 USB 数据通信链路。",
+      "R28 和 R30 等电阻构成 USB 上拉/下拉电路，是 USB 通信的必要组成部分。"
+    ]
+  },
+  {
+    "filename": "00868.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00868.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U1 芯片（LSM6DS0）为加速度计，属于信号采集传感器。",
+      "芯片 U1 的 SDA、SCL 等引脚连接至 I2C 总线，表明存在信号调理与接口功能。",
+      "JP1 连接器包含 GPIO 引脚，用于外部信号输入/输出，属于接口功能。",
+      "QWIC_RIGHT 角连接器包含 SCL、SDA 等信号引脚，用于外设通信或信号传输，属于接口功能。"
+    ]
+  },
+  {
+    "filename": "016_10_02.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\016_10_02.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "BQ25570RGR芯片及其周边电路，明确用于能量采集与管理，属于电源功能。",
+      "Light Sensor电路中包含运算放大器和相关调理电路，属于信号采集与调理功能。"
+    ]
+  },
+  {
+    "filename": "01351.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01351.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面包含 RS-485 和 RS-232 通信收发器芯片",
+      "明确画出了 RS-485 的 A/B 差分信号线和 RS-232 的 TX/RX 数据线",
+      "电路中包含用于驱动差分信号的外部端子 (TP42, TP45)",
+      "有明确的信号传输路径，符合数据通信功能"
+    ]
+  },
+  {
+    "filename": "01354.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01354.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "XDS110 Device 与 XDS110 Target Interface 之间的 SWDIO 和 SWCLK 信号线",
+      "明确标注的 MSP_DEBUG_UART_TX 和 MSP_DEBUG_UART_RX 通信路径",
+      "用于调试的 USB 接口电路 (XDS_TAD)",
+      "JTAG/SWD 调试接口 (KXD_TDO, KXD_TDI, KXD_TCK)"
+    ]
+  },
+  {
+    "filename": "179_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\179_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Typec电源输入电路明确显示DC-DC稳压和滤波功能",
+      "模拟前端信号采集电路包含运放、ADC等信号调理与转换元件",
+      "LED和按键指示电路以及旋转编码器电路属于明确的人机交互接口"
+    ]
+  },
+  {
+    "filename": "01709.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01709.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Power stage 区域包含明确的功率变换拓扑，如电感、开关管和反馈网络。",
+      "Current sense 和 Voltage Sense 区域包含运放、比较器等信号调理电路。",
+      "Driver circuit 区域存在与功率器件驱动相关的信号路径。",
+      "OCP circuit 区域包含电流检测和保护逻辑，属于信号处理范畴。"
+    ]
+  },
+  {
+    "filename": "01669.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01669.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在运算放大器（OPA）组成的信号调理链路",
+      "有明确的模拟输入网络连接到运放",
+      "有电容和电阻组成的滤波/反馈网络",
+      "最终输出为 VCA_OUT，表明是信号处理"
+    ]
+  },
+  {
+    "filename": "01078.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\01078.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB OTG 部分包含 USB 接口和相关电路，明确用于数据通信。",
+      "电压调节部分包含 VIN 输入、稳压器（如 RT9063）及其输入输出滤波电容，明确用于电源管理。",
+      "ESP32-S3 芯片的供电路径清晰，包括 VCC 和 GND 连接，是电源分配的一部分。",
+      "Thing Plus Board Outline 中包含 USB 数据信号线 (D+/D-) 的标注，明确属于通信功能。"
+    ]
+  },
+  {
+    "filename": "028_05_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\028_05_01.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在多级运算放大器（U1A, U1B, U2）组成的音频信号调理链路",
+      "有明确的低通滤波器（LPF1-IN/OUT, LPF2-IN/OUT）电路",
+      "输入端J1和输出端J2为音频信号接口，连接到运放输入/输出",
+      "电路中包含电容（如C6, C7, C8）用于信号耦合与滤波"
+    ]
+  },
+  {
+    "filename": "028_11_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\028_11_01.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的双极性电源输入电路 (J1) 和稳压/滤波路径",
+      "使用 TL072 运放构成信号调理链路，符合 signal 的定义",
+      "有明确的去耦电容 (C3, C4) 和整流二极管 (D1, D2)",
+      "可见白噪声生成电路 (WHITE_NOISE)，属于信号处理范畴"
+    ]
+  },
+  {
+    "filename": "00414.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00414.png",
+    "gold_labels": [
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的电源管理集成电路 (KSZ8563RNX Power Rails)",
+      "Buck Regulator 1.2V adjustable output 电路",
+      "以太网 PHY 芯片 (KSZ8563RNX) 及其相关接口",
+      "Port 1 和 Port 2 的 RJ45 连接器，用于以太网通信"
+    ]
+  },
+  {
+    "filename": "00766.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00766.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的 RFID 通信接口 (U1)",
+      "有标注为 ANT 的天线连接点",
+      "有标注为 TXD 和 RXD 的串行通信引脚",
+      "页面标题为 'RFID_Breakout_v2'"
+    ]
+  },
+  {
+    "filename": "006_02_04.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\006_02_04.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的 I2C 总线电路（SCL、SDA）及其上拉电阻",
+      "Grove I2C 和 QWIIC I2C 接口模块，属于外设接口",
+      "Driver Interface 中包含通信相关的控制信号（如 Interrupts）",
+      "多个接口模块（Grove, QWIIC）作为外部设备连接点"
+    ]
+  },
+  {
+    "filename": "00512.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00512.png",
+    "gold_labels": [
+      "interface",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "明确的UART通信电路，包含UART芯片及其相关连接。",
+      "明确的JTAG扫描链电路，用于调试和编程。",
+      "MicroBUS插座电路，属于外设接口。",
+      "PROG Probe电路，用于程序加载或调试，属于通信接口。"
+    ]
+  },
+  {
+    "filename": "036_01_NESTED_102.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\036_01_NESTED_102.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在 SN74LVC573APW118 D-type 锁存器，用于信号存储和输出",
+      "存在 SN74F521NSR 8-bit 比较器，用于信号比较",
+      "电路中包含 Front Porch Start、Sync Start 等与视频信号时序相关的网络，表明是信号处理链路",
+      "明确标示 'Horizontal Blank' 和 'Front Porch and Sync Start'，这些是视频信号的关键时序参数"
+    ]
+  },
+  {
+    "filename": "646_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\646_01_01.png",
+    "gold_labels": [
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB1 接口及其 D+、D- 数据线连接",
+      "CH340K 芯片（通常为 USB-UART 桥接芯片）",
+      "RXD、TXD 引脚连接至 CH340K",
+      "明确的 USB 下载/调试功能电路"
+    ]
+  },
+  {
+    "filename": "00150.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00150.png",
+    "gold_labels": [
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "MCP9700芯片是温度传感器，属于信号采集类别。",
+      "芯片有VCC和GND供电引脚，明确用于传感器功能。",
+      "芯片输出端(VOUT)连接到电容C1，构成信号调理电路。",
+      "页面标题为“Temperature Sensor”，与信号采集功能一致。"
+    ]
+  },
+  {
+    "filename": "00929.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00929.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "ISM330DHCX 加速度计芯片及其相关电路，属于信号采集。",
+      "MPC5983MA 磁力计芯片及其相关电路，属于信号采集。",
+      "连接器部分（如 QWIC、QWIC_HIGH）属于接口电路。",
+      "I2C 和 LED 跳线部分属于接口电路。"
+    ]
+  },
+  {
+    "filename": "181_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\181_01_01.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "负压产生电路明确显示Buck/Boost拓扑，包含电感、开关管和反馈网络。",
+      "模拟前端输入采样电路中包含运放(TL072IP)、滤波电容(C6, C7)和ADC接口，构成信号调理链路。",
+      "按键控制电路(K1-K3)和LED指示电路(LED1-LED3)明确属于人机交互接口。"
+    ]
+  },
+  {
+    "filename": "048_03_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\048_03_01.png",
+    "gold_labels": [
+      "control",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中央有明确的微控制器（MCU）芯片及其配套电路",
+      "页面下方有多个模块通过总线连接，显示为通信链路",
+      "页面右上角有标注为 'CAN' 的收发器电路",
+      "页面中存在与主控芯片直接相关的时钟、复位和启动配置电路"
+    ]
+  },
+  {
+    "filename": "036_01_NESTED_03.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\036_01_NESTED_03.png",
+    "gold_labels": [
+      "control",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "AP7365-33WG-7 LDO稳压器及其输入输出电路，明确显示电源调节功能。",
+      "XILINX FPGA芯片（XLH73501000000X）作为主控核心，其时钟、复位、配置等配套电路清晰可见。"
+    ]
+  },
+  {
+    "filename": "704_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\704_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在 LDO (U1) 及其输入输出滤波电路，明确属于电源功能。",
+      "主控芯片 U2 (MCU) 及其时钟、复位、调试接口电路，明确属于控制功能。",
+      "包含按键 (SW1, SW2) 和 LED 指示灯 (LED1-LED4)，明确属于接口功能。"
+    ]
+  },
+  {
+    "filename": "548_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\548_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U1 芯片（P0、P1、P2 等端口）作为主控芯片的明确证据",
+      "LED1、LED2 指示灯电路",
+      "BUZZER1 蜂鸣器电路",
+      "SW1 按键电路"
+    ]
+  },
+  {
+    "filename": "01062.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01062.png",
+    "gold_labels": [
+      "control",
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "PIC18F57Q84 MCU 是明确的主控芯片",
+      "页面包含 USER BUTTON 和 USER LED，属于人机交互接口",
+      "MCU 周围有晶振电路，为控制功能提供时钟",
+      "页面包含调试/编程接口（DEBUGGER CONNECTIONS）"
+    ]
+  },
+  {
+    "filename": "01161.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01161.png",
+    "gold_labels": [
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在明确的电源管理芯片 U4 (SN6501)",
+      "有输入 VIN 和 VCC 网络，并连接到稳压/变换电路",
+      "包含运放 TLC272A 构成的信号调理链路",
+      "有电容和电阻组成的 RC 滤波网络，用于信号处理"
+    ]
+  },
+  {
+    "filename": "675_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\675_01_01.png",
+    "gold_labels": [
+      "control",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U2 (STM32F103C8T6) 芯片作为主控",
+      "U2 的复位电路和晶振电路",
+      "LDO1 (SMD085B505TFP) 稳压器及其输入输出滤波电容",
+      "VIN 到 VOUT 的电源路径及滤波电容"
+    ]
+  },
+  {
+    "filename": "00649.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\eagle\\00649.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "power",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U1 (STM32F405RGT6) 是明确的主控芯片，属于 control。",
+      "电路中包含 VBAT、VDD1、VDD3 等电源输入，并有去耦电容和稳压路径，属于 power。",
+      "MicroMod Connector 提供了 USB、CAN、UART 等通信接口，属于 communication。",
+      "Status LED 和 R22 上拉电阻是明确的人机交互接口，属于 interface。"
+    ]
+  },
+  {
+    "filename": "414_01_02.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\414_01_02.png",
+    "gold_labels": [
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "负压产生电路明确显示DC-DC变换功能",
+      "模拟前端处理电路包含运放和滤波，用于信号调理",
+      "按键控制开关属于人机交互接口"
+    ]
+  },
+  {
+    "filename": "036_01_NESTED_27.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\036_01_NESTED_27.png",
+    "gold_labels": [
+      "control",
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在多个 D 型锁存器（如 IC4、IC7），用于数据存储和控制信号的生成。",
+      "电路中包含多组与中断相关的逻辑门（如 NAND 门、NOR 门）和控制信号路径，表明有明确的控制功能。",
+      "图中有明确的按键输入（D6, D7）和 LED 指示灯（LED-01 至 LED-08），属于人机交互接口。",
+      "存在用于读写标志位（Read Flags / Write Flags）的逻辑电路，是典型的控制功能体现。"
+    ]
+  },
+  {
+    "filename": "01750.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01750.png",
+    "gold_labels": [
+      "control"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中央的 'C2000 MCU Control Card' 明确指出了主控芯片",
+      "存在与主控MCU直接相关的时钟、复位和启动配置电路",
+      "连接器板上标注了多个GPIO引脚，表明其作为控制核心的功能",
+      "页面中包含明确的MCU供电路径"
+    ]
+  },
+  {
+    "filename": "175_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\175_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示了电源输入、整流和稳压功能",
+      "GD32E230C8T6芯片作为主控，其引脚连接和供电网络清晰可见",
+      "按键控制电路和LED指示电路属于明确的人机交互接口"
+    ]
+  },
+  {
+    "filename": "00061.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\00061.png",
+    "gold_labels": [
+      "control",
+      "interface"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "中央黄色芯片为 ATmega4809，是明确的主控MCU",
+      "页面包含 USER_LED 和 USER_BUTTON，属于人机交互接口",
+      "RST/USER button 配有电流限制和噪声滤波电路，属于接口功能",
+      "芯片周围有复位电路、晶振电路等控制相关配套电路"
+    ]
+  },
+  {
+    "filename": "034_03_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\034_03_01.png",
+    "gold_labels": [
+      "interface",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "多个运算放大器 (TL074) 构成的音频信号调理电路",
+      "明确标注为 'Audio in' 的音频输入接口",
+      "多路 LED 指示灯电路，属于人机交互接口",
+      "带有按键和拨码开关的控制输入接口"
+    ]
+  },
+  {
+    "filename": "01252.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\altium\\01252.png",
+    "gold_labels": [
+      "control",
+      "communication"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在主控芯片 U1B (LMX6UL)",
+      "U1B 配备了 UART、I2C、SPI 等通信接口",
+      "U1B 具有 JTAG 调试接口",
+      "U1B 连接了晶振电路，表明其为时钟核心"
+    ]
+  },
+  {
+    "filename": "174_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\174_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC降压芯片(XD7660)及其输入输出滤波电容，属于电源功能。",
+      "GD32E230C8T6芯片是明确的MCU主控芯片，承担系统控制功能。",
+      "按键控制电路和LED指示电路分别作为输入接口和输出接口，属于人机交互接口。"
+    ]
+  },
+  {
+    "filename": "011_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\011_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "Type-C电源输入电路和负压产生电路明确显示电源变换与稳压功能",
+      "LC-GD32E230C8T6芯片是明确的主控MCU",
+      "按键控制电路、LED指示电路、五向开关接口电路明确属于人机交互接口"
+    ]
+  },
+  {
+    "filename": "027_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\027_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "U1 (LC-GD32E230C8T6) 芯片，为 GD32 系列 MCU，是明确的控制核心。",
+      "U4 运算放大器及其周边电路（R5, R6, C9 等），构成信号调理链路。",
+      "KEY1, KEY2, KEY3 按键电路，属于人机交互接口。",
+      "LED1, LED2, LED3 发光二极管电路，用于状态指示，属于接口功能。"
+    ]
+  },
+  {
+    "filename": "036_01_NESTED_73.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\036_01_NESTED_73.png",
+    "gold_labels": [
+      "control"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "存在74LVC157APW.11B多路选择器，作为控制信号的切换",
+      "存在74LVC16232APW.11B B型锁存器，用于控制数据的存储和输出",
+      "存在74LVC16232APW.11B NDR门电路，参与控制逻辑",
+      "存在明确的时钟（CLK）、复位（RESET）等控制信号路径"
+    ]
+  },
+  {
+    "filename": "135_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\jlc\\135_01_01.png",
+    "gold_labels": [
+      "control",
+      "interface",
+      "power",
+      "signal"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "USB电源输入电路明确显示DC-DC稳压和EMI滤波功能",
+      "GD32E230C8T6最小系统板包含MCU主控芯片及其时钟、复位电路",
+      "模拟前端处理电路包含运放、比较器等信号调理元件",
+      "按键控制电路和五向开关接口属于明确的人机交互接口"
+    ]
+  },
+  {
+    "filename": "018_02_06.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\018_02_06.png",
+    "gold_labels": [
+      "control"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "M38813 芯片作为主控核心，具有多组 GPIO 和功能引脚",
+      "芯片周围有复位电路、时钟电路等配套控制电路",
+      "芯片通过多条总线（如 I2C、SPI）连接其他辅助芯片",
+      "存在明确的下载/调试接口电路"
+    ]
+  },
+  {
+    "filename": "039_01_01.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\039_01_01.png",
+    "gold_labels": [
+      "control",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "12V Battery输入及BSPD保护电路",
+      "Relay开关与充电控制逻辑",
+      "Charger Control模块及相关控制信号",
+      "明确的电源管理与切换路径"
+    ]
+  },
+  {
+    "filename": "041_01_10.png",
+    "image_path": "D:\\FYP\\data\\EDA_cls_dataset_full\\kicad\\041_01_10.png",
+    "gold_labels": [
+      "control",
+      "power"
+    ],
+    "confidence": "high",
+    "evidence": [
+      "页面中央的 K26 SOM 芯片，作为系统主控的核心证据。",
+      "左侧 Power Supply 区域，包含明确的电源输入、稳压（如 LDO）、滤波及保护电路。",
+      "多条电源网络（如 VCC、3V3、5V）连接到 K26 SOM 的供电引脚，表明其为该芯片提供电源。",
+      "电源区域中可见电感、二极管等开关电源拓扑元件，以及反馈环路结构。"
+    ]
+  }
+]
